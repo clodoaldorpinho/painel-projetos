@@ -1,0 +1,91 @@
+[
+  {
+    "id": "2026-05-10_0800",
+    "data": "2026-05-10",
+    "horario": "08:00",
+    "linha": "Checklists e Frameworks",
+    "template": 3,
+    "nome": "2026-05-10_0800_Checklists",
+    "conteudo": {
+      "capa": {
+        "titulo_linhas": [
+          {"text": "COMPATIBILIZAÇÃO", "highlight": true},
+          {"text": "ESTRUTURAL", "highlight": false},
+          {"text": "com arquitetura", "highlight": false}
+        ],
+        "subtitulo": "o que verificar antes de lançar o modelo",
+        "prompt": "architect and structural engineer reviewing building drawings together at desk, blueprints visible, professional office Brazil, photorealistic no text"
+      },
+      "slides": [
+        {
+          "titulo": "Antes de Abrir o TQS",
+          "elementos": [
+            {"type": "text", "content": "A compatibilização começa **antes** de lançar o primeiro pilar."},
+            {"type": "bullets", "items": [
+              "planta arquitetônica está na versão final e aprovada",
+              "cotas, pés-direitos e níveis de cada pavimento confirmados",
+              "pontos críticos identificados: pilares à mostra, vigas em fachada"
+            ]},
+            {"type": "box", "label": "ATENÇÃO", "content": "Estrutura lançada com planta provisória garante retrabalho."}
+          ]
+        },
+        {
+          "titulo": "Conflitos Mais Comuns",
+          "elementos": [
+            {"type": "text", "content": "Os pontos que mais geram conflito entre estrutura e arquitetura:"},
+            {"type": "numbered", "items": [
+              "pilares no meio de vãos previstos como livres na planta",
+              "vigas passando por cima de esquadrias sem ajuste de pé-direito",
+              "lajes com furos para instalações sem previsão de reforço de borda",
+              "escada estrutural incompatível com a geometria arquitetônica"
+            ]}
+          ]
+        },
+        {
+          "titulo": "Como Registrar",
+          "elementos": [
+            {"type": "bullets", "items": [
+              "liste cada conflito com referência à folha da planta arquitetônica",
+              "confirme resolução com o arquiteto antes de alterar a estrutura",
+              "guarde o e-mail de autorização — protege sua ART"
+            ]},
+            {"type": "text", "content": "Compatibilização sem registro é **acordo verbal**. Não conta quando há problema."}
+          ]
+        }
+      ],
+      "cta_type": "seguir"
+    },
+    "legenda": "Antes de abrir o TQS, existe um trabalho que a maioria dos engenheiros pula — e paga caro por isso depois.\n\nA compatibilização estrutural com arquitetura.\n\nNão é só conferir se o pilar cabe no espaço. É garantir que a estrutura que você vai calcular seja construtível, compatível e esteja documentada.\n\nOs conflitos mais comuns que aparecem no meio do projeto:\n\n→ Pilar onde o arquiteto previu vão livre\n→ Viga passando por cima de esquadria alta\n→ Furo na laje para instalações sem reforço previsto\n→ Escada que não fecha geometricamente com a estrutura\n\nCada um desses, se descoberto durante o cálculo, custa horas de retrabalho.\n\nA solução: compatibilizar antes de modelar. E registrar cada decisão por e-mail.\n\nCompatibilização documentada protege o projeto e protege a ART.\n\nSiga @eng.clodoaldopinho para frameworks de projeto toda semana."
+  },
+  {
+    "id": "2026-05-10_1700",
+    "data": "2026-05-10",
+    "horario": "17:00",
+    "linha": "Quebra de Objeções",
+    "template": 1,
+    "nome": "2026-05-10_1700_Objecoes",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "text": "Usar o TQS\nnão é o mesmo que\nsaber usar o TQS.",
+          "prompt_imagem": "engineer working confidently at computer with structural engineering software interface visible, professional office, photorealistic no text"
+        },
+        {
+          "type": "text",
+          "text": "A maioria dos usuários de TQS domina 20 a 30% das funcionalidades do software.\n\nO restante fica inexplorado — não por falta de capacidade, mas por falta de metodologia."
+        },
+        {
+          "type": "text",
+          "text": "Usar por anos não é o mesmo que usar certo.\n\nModelos incorretos passam despercebidos. Processamentos com erro viram norma.\n\nE o engenheiro não sabe o que não sabe."
+        },
+        {
+          "type": "text",
+          "text": "O TQS na Prática não ensina o software do zero.\n\nEnsina a metodologia: como montar, verificar e extrair o máximo do modelo — do lançamento às pranchas finais.\n\nQuem já usa aprende mais rápido e aplica no projeto seguinte."
+        }
+      ],
+      "cta_type": "tqs"
+    },
+    "legenda": "Essa é a objeção mais comum de quem considera o TQS na Prática.\n\n\"Já uso o TQS há anos. Por que precisaria de um curso?\"\n\nPorque usar e dominar são coisas diferentes.\n\nA maioria dos engenheiros aprendeu o TQS por tentativa e erro — ou observando alguém que também aprendeu assim. O resultado é um uso parcial do software, sem metodologia, sem verificação sistemática.\n\nO problema não aparece quando o processamento funciona. Aparece quando o projeto vai para a obra e algo não estava certo no modelo.\n\nO TQS na Prática foi criado para engenheiros que já usam o software. O objetivo não é ensinar a apertar botão — é dar o método completo: do lançamento à verificação final, com critério técnico em cada etapa.\n\nQuem já usa o TQS termina o curso aplicando o dobro do que usava antes.\n\nLink na bio para conhecer o TQS na Prática."
+  }
+]

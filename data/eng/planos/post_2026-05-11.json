@@ -1,0 +1,78 @@
+[
+  {
+    "id": "2026-05-11_0800",
+    "data": "2026-05-11",
+    "horario": "08:00",
+    "linha": "Mercado e Tendências",
+    "template": 2,
+    "nome": "2026-05-11_0800_Mercado",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "titulo": "Construção civil: 1 em cada 5 empregos formais do Brasil em 2026",
+          "fontes": "CBIC, CAGED, Mai/2026",
+          "prompt": "Brazilian construction workers at active building site urban development, upward growth mood, professional photorealistic no text"
+        },
+        {
+          "type": "dev",
+          "titulo": "O número que o setor não esperava",
+          "corpo": "No 1º trimestre de 2026, o saldo de empregos formais na construção civil cresceu 19% em comparação ao mesmo período de 2025.\n\nConstrução de edifícios: +23%\nObras de infraestrutura: +42,4%\n\nNo mesmo período em que o setor revisou o PIB para 1,2%, o emprego foi na direção oposta.",
+          "prompt": "construction workers on scaffolding of residential building, upward arrows growth concept, Brazil urban, photorealistic no text"
+        },
+        {
+          "type": "dev",
+          "titulo": "O que isso significa para o engenheiro",
+          "corpo": "Mais canteiros ativos significa mais demanda por projeto estrutural.\n\nO gargalo da cadeia não é a execução da obra — é o projeto que precisa existir antes dela.\n\nEngenheiro estrutural bem posicionado agora está capturando uma demanda crescente.",
+          "prompt": "structural engineer reviewing blueprints at construction site with buildings under construction in background, Brazil, photorealistic no text"
+        }
+      ],
+      "cta_type": "seguir",
+      "prompt_cta": "confident Brazilian civil engineer at desk reviewing structural project, professional office, photorealistic no text"
+    },
+    "legenda": "O setor que revisou o crescimento do PIB para 1,2% em 2026 gerou, no mesmo período, 19% mais empregos formais do que no ano passado.\n\nConstrução de edifícios: +23%\nInfraestrutura: +42%\n\n1 em cada 5 empregos formais criados no Brasil entre janeiro e março veio da construção civil.\n\nO que isso indica?\n\nA obra está acontecendo. Os canteiros estão ativos. A demanda por projeto estrutural está crescendo junto.\n\nE o gargalo da cadeia construtiva não é a mão de obra na obra — é o projeto que precisa estar pronto antes.\n\nEngenheiro estrutural que está bem posicionado agora tem demanda crescente à frente.\n\nO mercado de projeto estrutural em 2026 não é para quem está esperando. É para quem já está entregando.\n\nSiga @eng.clodoaldopinho para análises de mercado toda semana."
+  },
+  {
+    "id": "2026-05-11_1200",
+    "data": "2026-05-11",
+    "horario": "12:00",
+    "linha": "Checklists e Frameworks",
+    "template": 4,
+    "nome": "2026-05-11_1200_Estatico",
+    "conteudo": {
+      "prompt_conteudo": "The page shows a schema titled \"DO CROQUI AO MODELO TQS\" with subtitle \"(os 5 passos para não perder tempo)\".\n\nContent structured as a vertical flow diagram with thick double arrows ⟹ between steps:\n\nSTEP 1 — LEVANTAMENTO [draw small ruler+clipboard icon in right margin]\n→ planta arquitetônica na versão final\n→ lista de cargas por pavimento (uso e ocupação)\n→ classe de agressividade do ambiente\n\n⟹ (thick double arrow pointing down)\n\nSTEP 2 — PRÉ-LANÇAMENTO [draw small sketch/croqui icon]\n→ definir tipologia estrutural (pórtico, laje, misto)\n→ estimar vãos e seções iniciais\n→ identificar pontos críticos (pilares de canto, balanços)\n\n⟹\n\nSTEP 3 — LANÇAMENTO NO TQS [draw small computer screen icon]\n→ ordem: pilares → vigas → lajes\n→ cota de nível por pavimento\n→ verificar conectividade dos nós ao lançar\n\n⟹\n\nSTEP 4 — CARGAS E VÍNCULOS [draw small downward load arrows icon]\n→ PP automático + RCP manual\n→ cargas variáveis: NBR 6120\n→ apoios e vinculação de fundações\n\n⟹\n\nSTEP 5 — VERIFICAÇÃO PRÉ-PROCESSAMENTO [draw small magnifying glass icon]\n→ rodar verificador de consistência do modelo\n→ corrigir todos os erros antes de processar\n→ processar e conferir deslocamentos\n\nINSIGHT BOX (dashed border rectangle):\n[clock icon] \"Pular um passo = retrabalho no próximo.\"\n\n\"@eng.clodoaldopinho\" in small neat handwriting, centered, clearly above the bottom boundary."
+    },
+    "legenda": "Você já abriu o TQS sem saber por onde começar?\n\nOu pior: lançou o modelo inteiro e descobriu no final que a planta arquitetônica não era a versão final?\n\nEsse framework existe para isso.\n\n5 passos em ordem. Sem pular etapa.\n\n→ Levantamento completo antes de abrir o software\n→ Pré-lançamento: tipologia e seções iniciais definidas no papel\n→ Lançamento em ordem: pilar, viga, laje\n→ Cargas e vínculos antes de processar\n→ Verificação de consistência antes de rodar\n\nCada passo evita retrabalho no seguinte.\n\nA diferença entre um modelo que processa certo na primeira vez e um que fica rebatendo erro está aqui: na sequência.\n\nSalva esse esquema. Cola na parede do escritório se precisar.\n\nSiga @eng.clodoaldopinho para frameworks de engenharia estrutural toda semana."
+  },
+  {
+    "id": "2026-05-11_1700",
+    "data": "2026-05-11",
+    "horario": "17:00",
+    "linha": "Verdades da Profissão",
+    "template": 1,
+    "nome": "2026-05-11_1700_Verdades",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "text": "Projeto estrutural\nnão é custo.\nÉ o único item que\nevita que a obra\nvire processo.",
+          "prompt_imagem": "cracked concrete column structural failure in building construction Brazil, warning concept, photorealistic no text"
+        },
+        {
+          "type": "text",
+          "text": "O cliente que briga pelo preço do projeto paga dez vezes mais se a obra tiver um problema estrutural.\n\nO engenheiro que aceita baratear o projeto responde com a ART."
+        },
+        {
+          "type": "text",
+          "text": "Laudo, perícia, processo judicial, embargo de obra.\n\nTodo problema estrutural que chega à justiça começa com uma decisão de cortar custo no projeto.\n\nO barato sai caro — mas quem paga a conta pode ser você."
+        },
+        {
+          "type": "text",
+          "text": "O projeto estrutural é o único item da obra com responsabilidade técnica registrada.\n\nQuem assina a ART não está só entregando um serviço.\n\nEstá respondendo por décadas."
+        }
+      ],
+      "cta_type": "tqs"
+    },
+    "legenda": "Existe uma conversa que todo engenheiro estrutural vai ter com um cliente em algum momento.\n\n\"Não dá pra baratear o projeto?\"\n\nE a resposta certa não é ceder.\n\nO projeto estrutural não é um item de custo da obra. É o documento técnico que determina se a edificação vai ficar em pé pelo tempo que precisa ficar.\n\nCliente que briga pelo preço do projeto hoje, paga perícia, processo e embargo amanhã.\n\nE o engenheiro que assinou a ART responde junto.\n\nNão existe prazo de validade para responsabilidade técnica. A ART que você assina hoje ainda é evidência em um processo daqui a 30 anos.\n\nIsso muda a conversa sobre preço.\n\nO projeto não é caro. O problema estrutural é.\n\nTQS na Prática forma engenheiros que entendem o que assinam. Link na bio."
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "2026-05-14_0800",
+    "data": "2026-05-14",
+    "horario": "08:00",
+    "linha": "Checklists e Frameworks",
+    "template": 3,
+    "nome": "2026-05-14_0800_Checklists",
+    "conteudo": {
+      "capa": {
+        "titulo_linhas": [
+          {"text": "ANTES DE EMITIR", "highlight": false},
+          {"text": "A ART", "highlight": true},
+          {"text": "de projeto estrutural", "highlight": false}
+        ],
+        "subtitulo": "o que não pode estar pendente quando você assina",
+        "prompt": "engineer signing official technical documents at desk with structural drawings in background, serious professional expression, photorealistic no text"
+      },
+      "slides": [
+        {
+          "titulo": "Documentação Técnica",
+          "elementos": [
+            {"type": "text", "content": "A ART vincula seu nome ao projeto. Tudo precisa estar **concluído**."},
+            {"type": "bullets", "items": [
+              "memorial de cálculo finalizado e arquivado",
+              "plantas de forma com cotas, nomenclatura e paginação",
+              "detalhamentos de armação conferidos com o memorial",
+              "especificação de fck, aço e cobrimento nas folhas"
+            ]},
+            {"type": "box", "label": "REGRA", "content": "Se algo ainda está para ajustar depois, não emita a ART."}
+          ]
+        },
+        {
+          "titulo": "Verificação do Modelo",
+          "elementos": [
+            {"type": "bullets", "items": [
+              "deslocamentos dentro dos limites da NBR 6118",
+              "reações de apoio plausíveis para as cargas aplicadas",
+              "armadura mínima atendida em todos os elementos",
+              "verificação de estado limite de serviço: fissuração e deformação"
+            ]},
+            {"type": "text", "content": "Resultado do processamento **revisado**, não apenas aceito."}
+          ]
+        },
+        {
+          "titulo": "Compatibilização Final",
+          "elementos": [
+            {"type": "numbered", "items": [
+              "estrutura compatível com a planta arquitetônica enviada ao cliente",
+              "instalações não conflitam com elementos estruturais",
+              "cliente recebeu e confirmou recebimento da versão final",
+              "cópia arquivada de tudo que foi entregue"
+            ]},
+            {"type": "text", "content": "ART é responsabilidade **vitalícia**. Revise antes, não depois."}
+          ]
+        }
+      ],
+      "cta_type": "tqs"
+    },
+    "legenda": "Existe uma diferença entre terminar um projeto e estar pronto para emitir a ART.\n\nO projeto termina quando o processamento fecha. A ART está pronta quando tudo o que você assina está verificado, entregue e documentado.\n\nO que não pode estar pendente quando você assina:\n\n→ Memorial de cálculo finalizado — não rascunho\n→ Detalhamentos conferidos com o memorial\n→ Deslocamentos e armaduras revisados\n→ Estrutura compatibilizada com a arquitetura final\n→ Cliente com a versão definitiva confirmada por escrito\n\nA ART vincula seu nome ao projeto pela vida útil da edificação. Não tem prazo de validade, não tem revisão.\n\nSe algo ficou pendente, a ART espera.\n\nNunca o contrário.\n\nTQS na Prática ensina a metodologia de verificação completa antes da entrega. Link na bio."
+  },
+  {
+    "id": "2026-05-14_1700",
+    "data": "2026-05-14",
+    "horario": "17:00",
+    "linha": "Provocações Diretas",
+    "template": 1,
+    "nome": "2026-05-14_1700_Provocacoes",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "text": "Engenheiro que\ndepende só do CLT\né refém.\n\nCalculista com\ncarteira própria\né livre.",
+          "prompt_imagem": "split concept: left stressed engineer at corporate desk under pressure, right confident independent engineer working freely at own office, Brazil professional setting, photorealistic no text"
+        },
+        {
+          "type": "text",
+          "text": "CLT tem plano de carreira predefinido.\n\nSe você não define o teto, o teto é definido para você.\n\nE o teto costuma ser mais baixo do que o seu potencial."
+        },
+        {
+          "type": "text",
+          "text": "Calculista autônomo com carteira de 5 clientes fixos fatura mais do que gerente de obra.\n\nSem bater ponto. Sem pedir férias. Sem depender de avaliação de desempenho de terceiros.\n\nA diferença é uma: ele vendeu o serviço."
+        },
+        {
+          "type": "text",
+          "text": "Não é sobre abandonar o emprego amanhã.\n\nÉ sobre não fazer do emprego a única opção.\n\nQuem tem outra fonte de renda nunca aceita condições ruins por necessidade."
+        }
+      ],
+      "cta_type": "seguir"
+    },
+    "legenda": "Essa vai incomodar quem precisa ouvir.\n\nDepender de um único emprego CLT não é segurança. É concentração de risco.\n\nSe a empresa corta, você para. Se o setor entra em crise, você para. Se o gestor muda, você para.\n\nO engenheiro estrutural tem uma vantagem rara: domina um conhecimento técnico que poucos têm e que o mercado precisa.\n\nEsse conhecimento pode gerar renda fora do emprego.\n\nNão precisa ser uma virada de mesa. Começa com um cliente. Um projeto. Uma entrega bem-feita.\n\nCarteira com 3 clientes recorrentes já muda a equação de risco.\n\nCom 5, você negocia condições no emprego ou sai dele quando quiser — não quando precisar.\n\nA liberdade do calculista autônomo não é romantismo. É matemática.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira toda semana."
+  }
+]

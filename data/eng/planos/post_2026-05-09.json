@@ -1,0 +1,131 @@
+[
+  {
+    "id": "2026-05-09_0800",
+    "data": "2026-05-09",
+    "horario": "08:00",
+    "linha": "Perguntas e Respostas",
+    "template": 3,
+    "nome": "2026-05-09_0800_Perguntas",
+    "conteudo": {
+      "capa": {
+        "titulo_linhas": [
+          {"text": "POR QUE O TQS NÃO", "highlight": false},
+          {"text": "PROCESSA", "highlight": true},
+          {"text": "MEU MODELO?", "highlight": false}
+        ],
+        "subtitulo": "as causas mais comuns e como corrigir",
+        "prompt": "frustrated engineer looking at structural engineering software error on computer screen, office, photorealistic no text"
+      },
+      "slides": [
+        {
+          "titulo": "A Mensagem de Erro",
+          "elementos": [
+            {"type": "text", "content": "Quando o TQS retorna **'estrutura instável'** ou **deslocamento infinito**, o modelo tem falha de vinculação ou conectividade."},
+            {"type": "bullets", "items": [
+              "nó solto: elemento existe mas não está conectado à estrutura",
+              "apoio mal configurado: pilar sem vinculação à fundação",
+              "laje flutuante: sem apoio em pelo menos um lado"
+            ]},
+            {"type": "box", "label": "REGRA", "content": "Um único nó solto trava o processamento inteiro."}
+          ]
+        },
+        {
+          "titulo": "Causas Mais Comuns",
+          "elementos": [
+            {"type": "bullets", "items": [
+              "viga lançada mas não conectada ao pilar no nó exato",
+              "cotas de nível inconsistentes entre pavimentos",
+              "carga aplicada fora do comprimento do elemento",
+              "seção de barra com valor inválido ou não atribuída"
+            ]},
+            {"type": "box", "label": "DICA TQS", "content": "Use Verificar → Consistência do Modelo antes de processar para localizar elementos problemáticos."}
+          ]
+        },
+        {
+          "titulo": "Como Corrigir",
+          "elementos": [
+            {"type": "numbered", "items": [
+              "acesse: Verificar → Consistência do modelo",
+              "localize nós soltos na vista gráfica (aparecem destacados)",
+              "verifique vinculações de apoio pavimento a pavimento",
+              "reprocesse após cada correção — não acumule ajustes"
+            ]},
+            {"type": "text", "content": "Na maioria dos casos **um nó solto** resolve. Verifique antes de mudar qualquer coisa no modelo."}
+          ]
+        }
+      ],
+      "cta_type": "tqs"
+    },
+    "legenda": "Essa dúvida aparece toda semana nos grupos de engenharia estrutural.\n\nO modelo não processa. A tela trava. O TQS retorna mensagem de erro e você não sabe por onde começar a procurar.\n\nA causa, na maioria dos casos, é mais simples do que parece:\n\n→ Um nó solto que parece conectado mas não está\n→ Uma viga que visualmente encosta no pilar mas não foi lançada no nó\n→ Um apoio de fundação que ficou faltando\n\nO verificador de consistência do TQS é o primeiro passo — antes de qualquer outra coisa. Ele mapeia os elementos com problema e já indica onde olhar.\n\nDebugar modelo no TQS sem usar o verificador é como procurar vazamento sem fechar o registro.\n\nSalva esse post para a próxima vez que o processamento travar.\n\nTQS na Prática ensina a metodologia completa de modelagem. Acesse o link na bio."
+  },
+  {
+    "id": "2026-05-09_1200",
+    "data": "2026-05-09",
+    "horario": "12:00",
+    "linha": "Checklists e Frameworks",
+    "template": 4,
+    "nome": "2026-05-09_1200_Estatico",
+    "conteudo": {
+      "prompt_conteudo": "The page shows a schema titled \"ANTES DE ASSINAR A ART\" with subtitle \"(checklist de revisão do projeto estrutural)\".\n\nContent organized into 3 numbered sections:\n\nSection ① DOCUMENTAÇÃO TÉCNICA (bold caps, circled number) [draw small document/paper stack icon in right margin]\n→ Memorial de cálculo finalizado e arquivado\n→ Plantas de forma com cotas e nomenclatura completas\n→ Detalhamentos de armação conferidos com o memorial\n→ fck, aço e cobrimento especificados nas folhas\n\nSection ② VERIFICAÇÃO DO MODELO (bold caps, circled number) [draw small computer screen with checkmark icon in right margin]\n→ Deslocamentos dentro dos limites NBR 6118\n→ Reações de apoio plausíveis para as cargas\n→ Armadura mínima atendida em todos os elementos\n✗ Algo ainda \"para ajustar depois\"? NÃO EMITA. [draw red circle around \"NÃO EMITA\"]\n\nSection ③ COMPATIBILIZAÇÃO FINAL (bold caps, circled number) [draw small ruler+blueprint icon in right margin]\n→ Estrutura bate com arquitetura enviada ao cliente\n→ Instalações não conflitam com elementos estruturais\n→ Cliente confirmou recebimento da versão final\n→ Cópia arquivada de tudo que foi entregue\n\nINSIGHT BOX (dashed border rectangle near bottom):\n[warning triangle icon] \"ART é responsabilidade vitalícia.\nRevise antes — nunca depois.\"\n\nSmall curved-arrow annotation below the box: \"guarda junto com o arquivo do projeto\"\n\n\"@eng.clodoaldopinho\" in small neat handwriting, centered, clearly above the bottom boundary."
+    },
+    "legenda": "A ART vincula seu nome ao projeto por toda a vida útil da edificação.\n\nNão tem prazo de validade. Não tem carência. Se a estrutura falhar daqui a 30 anos, a ART que você assinou hoje ainda é evidência.\n\nPor isso, antes de emitir, esse checklist precisa estar completo:\n\n→ Memorial de cálculo finalizado — não \"quase\"\n→ Detalhamentos conferidos com o memorial\n→ Compatibilização com a arquitetura feita e registrada\n→ Cliente com a versão final confirmada por escrito\n\nO erro mais comum: assinar a ART com algo \"para ajustar depois\".\n\nDepois não existe no projeto estrutural. Existe o que foi entregue e o que não foi.\n\nSalva esse checklist e usa antes de emitir qualquer ART de projeto.\n\nSiga @eng.clodoaldopinho para conteúdo técnico toda semana."
+  },
+  {
+    "id": "2026-05-09_1700",
+    "data": "2026-05-09",
+    "horario": "17:00",
+    "linha": "Carreira do Engenheiro",
+    "template": 3,
+    "nome": "2026-05-09_1700_Carreira",
+    "conteudo": {
+      "capa": {
+        "titulo_linhas": [
+          {"text": "COMO MONTAR SUA", "highlight": false},
+          {"text": "CARTEIRA DE CLIENTES", "highlight": true},
+          {"text": "como calculista autônomo", "highlight": false}
+        ],
+        "subtitulo": "do zero até os primeiros contratos recorrentes",
+        "prompt": "civil engineer meeting with architect client at modern office, professional handshake, Brazilian architecture firm environment, photorealistic no text"
+      },
+      "slides": [
+        {
+          "titulo": "Onde Estão Seus Clientes",
+          "elementos": [
+            {"type": "text", "content": "**Escritórios de arquitetura** são o cliente ideal para o calculista autônomo."},
+            {"type": "bullets", "items": [
+              "cada arquiteto ativo tem demanda constante por projeto estrutural",
+              "relacionamento de longo prazo — não é projeto a projeto",
+              "indicação entre escritórios é o principal canal de aquisição"
+            ]},
+            {"type": "box", "label": "REGRA", "content": "Um cliente satisfeito indica dois. Entrega no prazo é o melhor marketing que existe."}
+          ]
+        },
+        {
+          "titulo": "Como se Posicionar",
+          "elementos": [
+            {"type": "text", "content": "O cliente não quer só o cálculo. Ele quer **segurança e prazo**."},
+            {"type": "numbered", "items": [
+              "tenha portfólio objetivo: tipologias que atende, prazos reais",
+              "defina escopo com clareza — o que está e o que não está incluso",
+              "seja o primeiro a responder — velocidade vira diferencial",
+              "peça referências ativamente após cada entrega"
+            ]}
+          ]
+        },
+        {
+          "titulo": "Primeiros Passos",
+          "elementos": [
+            {"type": "bullets", "items": [
+              "liste 10 arquitetos locais e contate com portfólio em mãos",
+              "faça o primeiro projeto por preço competitivo — nunca de graça",
+              "peça autorização para usar como referência após a entrega"
+            ]},
+            {"type": "text", "content": "A carteira de clientes se **constrói por projeto**. Não tem atalho — mas tem método."}
+          ]
+        }
+      ],
+      "cta_type": "seguir"
+    },
+    "legenda": "Calculista autônomo sem carteira de clientes é freelancer de oportunidade.\n\nCalculista com carteira estruturada tem renda previsível.\n\nA diferença está no método de aquisição.\n\nEscritórios de arquitetura são o cliente ideal: têm demanda constante, valorizam parceria de longo prazo e indicam para outros arquitetos quando o trabalho é bom.\n\nComo começar:\n\n→ Identifique 10 escritórios de arquitetura na sua cidade\n→ Entre em contato com portfólio objetivo — 3 projetos, tipologias e prazos reais\n→ Faça o primeiro projeto por preço competitivo — mas nunca de graça\n→ Entregue antes do prazo. Peça referência por escrito.\n\nA carteira de clientes não vem de uma vez. Vem de cada projeto bem entregue.\n\nQuem espera indicação passiva demora anos. Quem busca ativamente constrói a carteira em meses.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira e técnico toda semana."
+  }
+]

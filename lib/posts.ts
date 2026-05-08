@@ -2,32 +2,48 @@ import fs from "fs"
 import path from "path"
 import { Post, PostStatus } from "./types"
 
-const PLANOS_DIR = path.join(
-  process.env.PLANOS_DIR ||
+// Local: usa variável de ambiente ou caminho padrão do Windows
+// Vercel: usa data/ dentro do repositório como fallback
+const LOCAL_PLANOS =
   "C:\\Users\\clodo\\OneDrive\\Área de Trabalho\\ProjetoClaudeCode\\EngClodoaldoPinho\\planos"
-)
 
-const IMAGENS_DIR = path.join(
-  process.env.IMAGENS_DIR ||
+const LOCAL_IMAGENS =
   "C:\\Users\\clodo\\OneDrive\\Área de Trabalho\\ProjetoClaudeCode\\EngClodoaldoPinho\\imagens"
-)
+
+function planDir(): string {
+  if (process.env.PLANOS_DIR) return process.env.PLANOS_DIR
+  if (fs.existsSync(LOCAL_PLANOS)) return LOCAL_PLANOS
+  return path.join(process.cwd(), "data", "eng", "planos")
+}
+
+function imgDir(): string {
+  if (process.env.IMAGENS_DIR) return process.env.IMAGENS_DIR
+  return LOCAL_IMAGENS
+}
 
 function detectStatus(post: Record<string, unknown>): PostStatus {
   if (post.post_id) return "publicado"
 
+  // Campo explícito gravado pelo gerar_conteudos.py — funciona no Vercel
+  if (post.imagens_geradas) return "gerado"
+
+  // Fallback: verifica disco local (só funciona localmente)
   const nome = post.nome as string
   if (!nome) return "pendente"
 
-  const imgDir = path.join(IMAGENS_DIR, nome)
-  if (!fs.existsSync(imgDir)) return "pendente"
+  try {
+    const dir = path.join(imgDir(), nome)
+    if (!fs.existsSync(dir)) return "pendente"
 
-  const template = post.template as number
-  if (template === 4) {
-    return fs.existsSync(path.join(imgDir, "post.png")) ? "gerado" : "pendente"
+    const template = post.template as number
+    if (template === 4) {
+      return fs.existsSync(path.join(dir, "post.png")) ? "gerado" : "pendente"
+    }
+    const slides = fs.readdirSync(dir).filter(f => f.startsWith("slide_") && f.endsWith(".png"))
+    return slides.length > 0 ? "gerado" : "pendente"
+  } catch {
+    return "pendente"
   }
-
-  const slides = fs.readdirSync(imgDir).filter(f => f.startsWith("slide_") && f.endsWith(".png"))
-  return slides.length > 0 ? "gerado" : "pendente"
 }
 
 export function getPostsByDateRange(inicio: string, fim: string): Post[] {
@@ -39,7 +55,7 @@ export function getPostsByDateRange(inicio: string, fim: string): Post[] {
 
   while (cur <= end) {
     const dateStr  = cur.toISOString().split("T")[0]
-    const jsonPath = path.join(PLANOS_DIR, `post_${dateStr}.json`)
+    const jsonPath = path.join(planDir(), `post_${dateStr}.json`)
 
     if (fs.existsSync(jsonPath)) {
       try {

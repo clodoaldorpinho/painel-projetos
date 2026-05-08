@@ -1,0 +1,66 @@
+[
+  {
+    "id": "2026-05-15_0800",
+    "data": "2026-05-15",
+    "horario": "08:00",
+    "linha": "Mercado e Tendências",
+    "template": 2,
+    "nome": "2026-05-15_0800_Mercado",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "titulo": "MCMV Faixa 4: imóveis até R$ 600 mil agora financiáveis",
+          "fontes": "CNN Brasil, Caixa Econômica Federal, Mai/2026",
+          "prompt": "modern mid-range residential building under construction in Brazil, quality MCMV standard, sunny day, photorealistic no text"
+        },
+        {
+          "type": "dev",
+          "titulo": "O que Mudou no Programa",
+          "corpo": "A Faixa 4 do Minha Casa Minha Vida foi expandida em 2026:\n\nTeto do imóvel: R$ 350 mil para R$ 600 mil\nRenda familiar: até R$ 13.000 por mês\n\nUma faixa inteira de incorporações de médio padrão entrou no financiamento subsidiado.\n\nDemanda imediata por projetos de edifícios de 4 a 10 pavimentos.",
+          "prompt": "residential buildings of medium standard in Brazilian city under construction, real estate development, photorealistic no text"
+        },
+        {
+          "type": "dev",
+          "titulo": "O que o Engenheiro Estrutural Precisa Saber",
+          "corpo": "Edifícios MCMV têm exigências técnicas próprias.\n\nA Caixa Econômica exige ART do projeto estrutural para liberação de crédito.\n\nMais projetos para calcular. Mais responsabilidade técnica envolvida.\n\nEngenheiros especializados em edifícios de até 10 pavimentos têm demanda crescente em 2026.",
+          "prompt": "structural engineer reviewing building plans for residential project, professional office Brazil, Caixa context, photorealistic no text"
+        }
+      ],
+      "cta_type": "seguir",
+      "prompt_cta": "confident structural engineer at desk with residential building project drawings, professional Brazilian office, photorealistic no text"
+    },
+    "legenda": "O Minha Casa Minha Vida acabou de ampliar o alcance do programa — e isso tem impacto direto no mercado de projeto estrutural.\n\nCom o novo teto da Faixa 4, imóveis de até R$ 600 mil passam a ser financiáveis para famílias com renda de até R$ 13.000 por mês.\n\nO que isso move no mercado:\n\n→ Incorporadoras de médio padrão agora têm acesso a um público maior\n→ Mais empreendimentos de 4 a 10 pavimentos vão sair do papel\n→ Cada empreendimento exige ART de projeto estrutural para liberação de crédito na Caixa\n\nO engenheiro estrutural especializado em edifícios de médio porte está no centro dessa demanda.\n\nMercado em expansão não espera quem está se preparando. Atende quem já está pronto.\n\nSe você ainda não tem portfólio nessa tipologia, este é o momento de construir.\n\nSiga @eng.clodoaldopinho para análise de mercado toda semana."
+  },
+  {
+    "id": "2026-05-15_1700",
+    "data": "2026-05-15",
+    "horario": "17:00",
+    "linha": "Verdades da Profissão",
+    "template": 1,
+    "nome": "2026-05-15_1700_Verdades",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "text": "A maioria dos\nengenheiros usa\no TQS sem ter\naprendido 30%\ndo que o software faz.",
+          "prompt_imagem": "engineer looking at complex structural engineering software interface with many menus and tools, overwhelmed but focused, professional office multiple monitors, photorealistic no text"
+        },
+        {
+          "type": "text",
+          "text": "O TQS não tem tutorial obrigatório.\n\nNão tem certificação. Não tem avaliação de nível.\n\nEngenheiros aprendem por tentativa e erro — ou com quem já usava antes deles na empresa."
+        },
+        {
+          "type": "text",
+          "text": "E assim vai.\n\nProcessamento funciona? Continua.\n\nNão sabe por que funcionou. Não sabe o que o resultado significa. Não sabe o que deixou de verificar.\n\nAté o dia que não funciona."
+        },
+        {
+          "type": "text",
+          "text": "O TQS na Prática foi criado para isso.\n\nNão para ensinar o básico do software.\n\nPara dar metodologia: o que fazer, em que ordem, por que — e o que verificar antes de assinar a ART."
+        }
+      ],
+      "cta_type": "tqs"
+    },
+    "legenda": "Nenhuma faculdade ensina TQS. Nenhum fabricante exige certificação para usar.\n\nO resultado: a maioria dos engenheiros estruturais usa o software como aprendeu — de forma parcial, sem método, sem verificação sistemática.\n\nIsso não é crítica. É realidade do setor.\n\nE é um problema silencioso: o modelo processa, o projeto é entregue, a ART é assinada. Mas ninguém tem certeza se o que foi feito está certo.\n\nAté aparecer um problema.\n\nO TQS na Prática foi desenvolvido para preencher exatamente essa lacuna:\n\n→ Metodologia de modelagem do zero ao modelo finalizado\n→ Verificação passo a passo antes de processar\n→ Interpretação dos resultados com critério técnico\n→ Entrega com segurança para assinar a ART\n\nNão é curso de software. É método de trabalho.\n\nAcesse o link na bio para conhecer o TQS na Prática."
+  }
+]

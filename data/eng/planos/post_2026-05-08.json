@@ -1,0 +1,66 @@
+[
+  {
+    "id": "2026-05-08_0800",
+    "data": "2026-05-08",
+    "horario": "08:00",
+    "linha": "Mercado e Tendências",
+    "template": 2,
+    "nome": "2026-05-08_0800_Mercado",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "titulo": "Construção civil revisa crescimento para 1,2% em 2026",
+          "fontes": "CBIC, FGV/IBRE, Mai/2026",
+          "prompt": "Brazilian construction site with cranes and unfinished buildings at dusk, economic pressure mood, professional photorealistic"
+        },
+        {
+          "type": "dev",
+          "titulo": "O que mudou",
+          "corpo": "A expectativa de crescimento do setor caiu de 2% para 1,2% em 2026.\n\nJuros altos + custos de materiais em alta + incerteza macro.\n\nO setor crescia — mas o freio veio antes do esperado.",
+          "prompt": "construction project budget documents with calculator and falling graph, photorealistic professional"
+        },
+        {
+          "type": "dev",
+          "titulo": "Os números que explicam",
+          "corpo": "INCC-M: 1,4% em abril — maior alta desde junho de 2022.\n\nPVC: +35% | Cimento: +15% | Vergalhões: +13%\n\nVolume de vendas de material de construção: -5,5% no 1º bimestre de 2026.\n\nO custo chegou antes do crescimento.",
+          "prompt": "rising cost graph with construction materials cement steel PVC background, photorealistic"
+        }
+      ],
+      "cta_type": "seguir",
+      "prompt_cta": "Brazilian civil engineer reviewing project costs at desk, professional confident expression, photorealistic"
+    },
+    "legenda": "O setor que emprega 1 em cada 5 trabalhadores formais do Brasil revisou sua expectativa de crescimento.\n\nDe 2% para 1,2% em 2026.\n\nNão é surpresa para quem está na ponta:\n\n→ INCC-M de 1,4% em abril — maior desde junho de 2022\n→ PVC subiu 35%, cimento 15%, vergalhões 13%\n→ Vendas de material caíram 5,5% no primeiro bimestre\n\nO que isso muda para o engenheiro estrutural?\n\nProjetos com contrato fechado antes de janeiro estão sob pressão. Os materiais subiram mais rápido do que qualquer reajuste contratual previsto.\n\nSe você ainda não tem cláusula de reajuste pelo INCC nos seus contratos de projeto, esse é o momento de incluir.\n\nO cenário aperta para quem não se protegeu — e abre para quem está bem posicionado.\n\nSalva esse post. Pode ser a referência que você precisava para renegociar um contrato."
+  },
+  {
+    "id": "2026-05-08_1700",
+    "data": "2026-05-08",
+    "horario": "17:00",
+    "linha": "Verdades da Profissão",
+    "template": 1,
+    "nome": "2026-05-08_1700_Verdades",
+    "conteudo": {
+      "slides": [
+        {
+          "type": "cover",
+          "text": "O calculista que não\nsabe vender o próprio\ntrabalho sempre vai\nganhar menos do que\nmerece.",
+          "prompt_imagem": "confident civil engineer presenting project to clients at meeting table, professional office Brazil, photorealistic no text"
+        },
+        {
+          "type": "text",
+          "text": "Técnica é o mínimo.\n\nO mercado não paga pelo que você sabe.\n\nEle paga pelo que você consegue comunicar que sabe."
+        },
+        {
+          "type": "text",
+          "text": "Engenheiros que cobram bem não são os mais experientes.\n\nSão os que conseguem mostrar o valor do que entregam antes de entregar.\n\nCom clareza, com segurança, sem pedir desculpa pelo preço."
+        },
+        {
+          "type": "text",
+          "text": "Você pode dominar o TQS, a NBR 6118 e todos os conceitos de estruturas.\n\nSe você não sabe se posicionar, alguém com menos técnica vai ganhar o projeto que deveria ser seu."
+        }
+      ],
+      "cta_type": "seguir"
+    },
+    "legenda": "Essa verdade incomoda — mas precisa ser dita.\n\nO engenheiro mais técnico da sala nem sempre é o mais bem pago.\n\nNão porque o mercado é injusto. Mas porque posicionamento e técnica são habilidades diferentes — e a maioria dos engenheiros só treinou uma delas.\n\nCobrar bem começa antes da proposta:\n\n→ Como você apresenta seu trabalho\n→ Como você explica o valor do projeto estrutural para o cliente\n→ Como você se posiciona quando o cliente diz que está caro\n\nNinguém ensina isso na faculdade. E poucos buscam depois.\n\nA boa notícia: é uma habilidade. Aprende-se.\n\nComeça por entender que o projeto estrutural não é um custo para o cliente — é a única coisa que evita que a obra vire processo.\n\nQuando você acredita nisso, cobrar fica mais fácil.\n\nSiga @eng.clodoaldopinho para conteúdo técnico e de carreira toda semana."
+  }
+]
