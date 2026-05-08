@@ -19,9 +19,10 @@ interface WeekGridProps {
   posts: Post[]
   inicio: string
   fim: string
+  localImages: boolean
 }
 
-export function WeekGrid({ posts, inicio, fim }: WeekGridProps) {
+export function WeekGrid({ posts, inicio, fim, localImages }: WeekGridProps) {
   const days: string[] = []
   const cur = new Date(inicio + "T12:00:00")
   const end = new Date(fim + "T12:00:00")
@@ -54,7 +55,7 @@ export function WeekGrid({ posts, inicio, fim }: WeekGridProps) {
                 <span className="text-xs text-zinc-700">sem posts</span>
               </div>
             ) : (
-              dayPosts.map(p => <PostCard key={p.id} post={p} />)
+              dayPosts.map(p => <PostCard key={p.id} post={p} localImages={localImages} />)
             )}
           </div>
         )

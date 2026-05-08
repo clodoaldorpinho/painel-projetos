@@ -11,7 +11,8 @@ export async function GET(req: NextRequest) {
 
   try {
     const posts = getPostsByDateRange(range.inicio, range.fim)
-    return NextResponse.json({ posts, range })
+    const localImagesAvailable = !process.env.VERCEL
+    return NextResponse.json({ posts, range, localImagesAvailable })
   } catch (err) {
     return NextResponse.json({ error: String(err) }, { status: 500 })
   }

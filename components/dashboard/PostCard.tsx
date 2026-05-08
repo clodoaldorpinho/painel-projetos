@@ -5,7 +5,7 @@ import { Post, TEMPLATE_LABELS, LINHA_CORES } from "@/lib/types"
 import { StatusBadge } from "./StatusBadge"
 import { cn } from "@/lib/utils"
 
-function ConteudoLink({ post }: { post: Post }) {
+function ConteudoLink({ post, localImages }: { post: Post; localImages: boolean }) {
   if (post.drive_folder_id) {
     return (
       <a
@@ -18,7 +18,7 @@ function ConteudoLink({ post }: { post: Post }) {
       </a>
     )
   }
-  if (post.status === "gerado" || post.status === "publicado") {
+  if (localImages && (post.status === "gerado" || post.status === "publicado")) {
     return (
       <Link
         href={`/posts/${encodeURIComponent(post.nome)}`}
@@ -31,7 +31,7 @@ function ConteudoLink({ post }: { post: Post }) {
   return null
 }
 
-export function PostCard({ post }: { post: Post }) {
+export function PostCard({ post, localImages }: { post: Post; localImages: boolean }) {
   const linhaCor = LINHA_CORES[post.linha] ?? "bg-zinc-500/20 text-zinc-300 border-zinc-500/30"
 
   return (
@@ -53,7 +53,7 @@ export function PostCard({ post }: { post: Post }) {
         </span>
       </div>
 
-      <ConteudoLink post={post} />
+      <ConteudoLink post={post} localImages={localImages} />
     </div>
   )
 }

@@ -10,6 +10,7 @@ export function Dashboard() {
   const [range, setRange]   = useState<{ inicio: string; fim: string } | null>(null)
   const [offset, setOffset] = useState(0)
   const [loading, setLoading] = useState(true)
+  const [localImages, setLocalImages] = useState(true)
 
   const load = useCallback(async (off: number) => {
     setLoading(true)
@@ -18,6 +19,7 @@ export function Dashboard() {
       const data = await res.json()
       setPosts(data.posts ?? [])
       setRange(data.range)
+      setLocalImages(data.localImagesAvailable ?? false)
     } finally {
       setLoading(false)
     }
@@ -83,7 +85,7 @@ export function Dashboard() {
           Carregando...
         </div>
       ) : range ? (
-        <WeekGrid posts={posts} inicio={range.inicio} fim={range.fim} />
+        <WeekGrid posts={posts} inicio={range.inicio} fim={range.fim} localImages={localImages} />
       ) : null}
     </div>
   )
