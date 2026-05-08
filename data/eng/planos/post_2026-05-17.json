@@ -9,9 +9,18 @@
     "conteudo": {
       "capa": {
         "titulo_linhas": [
-          {"text": "CHECKLIST DE", "highlight": false},
-          {"text": "VERIFICAÇÃO", "highlight": true},
-          {"text": "de pilares", "highlight": false}
+          {
+            "text": "CHECKLIST DE",
+            "highlight": false
+          },
+          {
+            "text": "VERIFICAÇÃO",
+            "highlight": true
+          },
+          {
+            "text": "de pilares",
+            "highlight": false
+          }
         ],
         "subtitulo": "da geometria ao detalhamento — o que revisar antes de assinar",
         "prompt": "reinforced concrete column cross-section with structural engineering drawings showing rebar layout stirrups and dimensions, professional technical detail, photorealistic no text"
@@ -20,46 +29,76 @@
         {
           "titulo": "Geometria e Seção",
           "elementos": [
-            {"type": "text", "content": "Antes de aceitar o dimensionamento, a **seção precisa fazer sentido** para a carga e a altura livre."},
-            {"type": "bullets", "items": [
-              "índice de esbeltez calculado: λ = l0/i — verificar se está abaixo do limite de 2ª ordem",
-              "seção mínima: 19 cm para pilar isolado (NBR 6118 item 13.2.3)",
-              "dimensão mínima: 14 cm — apenas em casos especificados pela norma",
-              "excentricidade mínima verificada nos dois eixos"
-            ]},
-            {"type": "box", "label": "ALERTA", "content": "Pilar esbelto sem verificação de 2ª ordem é o erro mais frequente em edificações de múltiplos pavimentos."}
+            {
+              "type": "text",
+              "content": "Antes de aceitar o dimensionamento, a **seção precisa fazer sentido** para a carga e a altura livre."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "índice de esbeltez calculado: λ = l0/i — verificar se está abaixo do limite de 2ª ordem",
+                "seção mínima: 19 cm para pilar isolado (NBR 6118 item 13.2.3)",
+                "dimensão mínima: 14 cm — apenas em casos especificados pela norma",
+                "excentricidade mínima verificada nos dois eixos"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "ALERTA",
+              "content": "Pilar esbelto sem verificação de 2ª ordem é o erro mais frequente em edificações de múltiplos pavimentos."
+            }
           ]
         },
         {
           "titulo": "Armadura Longitudinal",
           "elementos": [
-            {"type": "text", "content": "A armadura deve atender os limites da norma e a compatibilidade com a carga de projeto."},
-            {"type": "numbered", "items": [
-              "taxa mínima: 0,4% da área da seção transversal",
-              "taxa máxima: 8% — reduzida para 4% em regiões de emenda",
-              "diâmetro mínimo das barras longitudinais: 10 mm",
-              "distribuição simétrica nas duas faces no mínimo"
-            ]},
-            {"type": "text", "content": "Taxa abaixo do mínimo: **armadura insuficiente para retração e fluência**. Acima do máximo: problema de concretagem."}
+            {
+              "type": "text",
+              "content": "A armadura deve atender os limites da norma e a compatibilidade com a carga de projeto."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "taxa mínima: 0,4% da área da seção transversal",
+                "taxa máxima: 8% — reduzida para 4% em regiões de emenda",
+                "diâmetro mínimo das barras longitudinais: 10 mm",
+                "distribuição simétrica nas duas faces no mínimo"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Taxa abaixo do mínimo: **armadura insuficiente para retração e fluência**. Acima do máximo: problema de concretagem."
+            }
           ]
         },
         {
           "titulo": "Estribos e Detalhamento",
           "elementos": [
-            {"type": "bullets", "items": [
-              "espaçamento máximo entre estribos: menor valor entre 20∅ₗ, menor dimensão da seção ou 30 cm",
-              "diâmetro mínimo do estribo: ¼ do diâmetro da barra longitudinal, mínimo 5 mm",
-              "ancoragem das barras longitudinais verificada no topo e base",
-              "emendas por traspasse fora das regiões de momento máximo"
-            ]},
-            {"type": "box", "label": "REGRA PRÁTICA", "content": "Se o estribo não está amarrando todas as barras de canto, o pilar não está detalhado corretamente."},
-            {"type": "text", "content": "Detalhamento correto não é detalhe — é **condição para a obra executar o que o cálculo previu**."}
+            {
+              "type": "bullets",
+              "items": [
+                "espaçamento máximo entre estribos: menor valor entre 20∅ₗ, menor dimensão da seção ou 30 cm",
+                "diâmetro mínimo do estribo: ¼ do diâmetro da barra longitudinal, mínimo 5 mm",
+                "ancoragem das barras longitudinais verificada no topo e base",
+                "emendas por traspasse fora das regiões de momento máximo"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "REGRA PRÁTICA",
+              "content": "Se o estribo não está amarrando todas as barras de canto, o pilar não está detalhado corretamente."
+            },
+            {
+              "type": "text",
+              "content": "Detalhamento correto não é detalhe — é **condição para a obra executar o que o cálculo previu**."
+            }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Pilar mal verificado é o tipo de problema que o engenheiro descobre na perícia, não na obra.\n\nUm checklist rápido antes de fechar o detalhamento:\n\nGeometria:\n→ Índice de esbeltez calculado nos dois eixos\n→ Seção mínima respeitada: 19 cm para pilar isolado\n→ Efeitos de 2ª ordem verificados quando λ > 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da seção\n→ Reduzida para 4% na região de emenda\n→ Diâmetro mínimo de 10 mm\n\nEstribos:\n→ Espaçamento: menor que 20∅ₗ, menor dimensão da seção e 30 cm\n→ Diâmetro: no mínimo ¼ do diâmetro longitudinal, mínimo 5 mm\n→ Todas as barras de canto amarradas\n\nO pilar sustenta tudo acima dele. Verificar com rigor não é excesso — é obrigação.\n\nTQS na Prática cobre verificação de pilares dentro do modelo estrutural. Link na bio."
+    "legenda": "Pilar mal verificado é o tipo de problema que o engenheiro descobre na perícia, não na obra.\n\nUm checklist rápido antes de fechar o detalhamento:\n\nGeometria:\n→ Índice de esbeltez calculado nos dois eixos\n→ Seção mínima respeitada: 19 cm para pilar isolado\n→ Efeitos de 2ª ordem verificados quando λ > 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da seção\n→ Reduzida para 4% na região de emenda\n→ Diâmetro mínimo de 10 mm\n\nEstribos:\n→ Espaçamento: menor que 20∅ₗ, menor dimensão da seção e 30 cm\n→ Diâmetro: no mínimo ¼ do diâmetro longitudinal, mínimo 5 mm\n→ Todas as barras de canto amarradas\n\nO pilar sustenta tudo acima dele. Verificar com rigor não é excesso — é obrigação.\n\nTQS na Prática cobre verificação de pilares dentro do modelo estrutural. Link na bio.",
+    "imagens_geradas": true
   },
   {
     "id": "2026-05-17_1700",
@@ -90,6 +129,7 @@
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Essa objeção é real — e merece uma resposta honesta.\n\n\"O TQS na Prática é caro para minha realidade agora.\"\n\nPrimeiro: o curso custa menos do que um projeto estrutural de residência simples.\n\nUm único projeto entregue com mais segurança e em menos tempo já cobre o investimento. Com sobra.\n\nSegundo: se a realidade atual não permite o investimento, o problema não é o curso.\n\nO problema é não ter volume de projetos suficiente para que o retorno seja imediato.\n\nE isso é exatamente o que o método resolve:\n\n→ Processa mais rápido — mais projetos no mesmo tempo\n→ Erra menos — menos retrabalho, menos prejuízo\n→ Assina com mais segurança — cobra mais por isso\n\nO engenheiro que domina o método trabalha menos horas no mesmo projeto e entrega mais valor ao cliente.\n\nO custo do curso é pontual. O custo de continuar sem método se repete em cada projeto.\n\nAcesse o link na bio para conhecer o TQS na Prática."
+    "legenda": "Essa objeção é real — e merece uma resposta honesta.\n\n\"O TQS na Prática é caro para minha realidade agora.\"\n\nPrimeiro: o curso custa menos do que um projeto estrutural de residência simples.\n\nUm único projeto entregue com mais segurança e em menos tempo já cobre o investimento. Com sobra.\n\nSegundo: se a realidade atual não permite o investimento, o problema não é o curso.\n\nO problema é não ter volume de projetos suficiente para que o retorno seja imediato.\n\nE isso é exatamente o que o método resolve:\n\n→ Processa mais rápido — mais projetos no mesmo tempo\n→ Erra menos — menos retrabalho, menos prejuízo\n→ Assina com mais segurança — cobra mais por isso\n\nO engenheiro que domina o método trabalha menos horas no mesmo projeto e entrega mais valor ao cliente.\n\nO custo do curso é pontual. O custo de continuar sem método se repete em cada projeto.\n\nAcesse o link na bio para conhecer o TQS na Prática.",
+    "imagens_geradas": true
   }
 ]

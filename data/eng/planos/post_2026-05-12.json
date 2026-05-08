@@ -9,9 +9,18 @@
     "conteudo": {
       "capa": {
         "titulo_linhas": [
-          {"text": "LAJES NO TQS", "highlight": true},
-          {"text": "SEQUÊNCIA DE", "highlight": false},
-          {"text": "LANÇAMENTO", "highlight": false}
+          {
+            "text": "LAJES NO TQS",
+            "highlight": true
+          },
+          {
+            "text": "SEQUÊNCIA DE",
+            "highlight": false
+          },
+          {
+            "text": "LANÇAMENTO",
+            "highlight": false
+          }
         ],
         "subtitulo": "framework e erros que vão te fazer reprocessar",
         "prompt": "concrete slab formwork with reinforcement rebar at construction site Brazil, close-up professional, photorealistic no text"
@@ -20,44 +29,70 @@
         {
           "titulo": "Sequência Correta",
           "elementos": [
-            {"type": "text", "content": "Laje é o **último elemento** a ser lançado em cada pavimento."},
-            {"type": "numbered", "items": [
-              "confirme que todos os pilares e vigas do pavimento estão lançados",
-              "defina o contorno da laje pelos nós da estrutura",
-              "classifique corretamente: maciça, nervurada ou lisa",
-              "atribua o uso e a carga variável conforme NBR 6120"
-            ]},
-            {"type": "box", "label": "REGRA", "content": "Toda laje precisa de apoio definido em todos os lados. Sem exceção."}
+            {
+              "type": "text",
+              "content": "Laje é o **último elemento** a ser lançado em cada pavimento."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "confirme que todos os pilares e vigas do pavimento estão lançados",
+                "defina o contorno da laje pelos nós da estrutura",
+                "classifique corretamente: maciça, nervurada ou lisa",
+                "atribua o uso e a carga variável conforme NBR 6120"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "REGRA",
+              "content": "Toda laje precisa de apoio definido em todos os lados. Sem exceção."
+            }
           ]
         },
         {
           "titulo": "Erros que Fazem Reprocessar",
           "elementos": [
-            {"type": "bullets", "items": [
-              "laje sem apoio em um lado: processamento retorna deslocamento infinito",
-              "uso incorreto: sala tratada como depósito — sobrecarga errada",
-              "nervurada lançada como maciça: seção e rigidez incorretas",
-              "furo na laje sem definição de reforço de borda"
-            ]},
-            {"type": "text", "content": "**Uma laje mal lançada atrasa o projeto inteiro** — e os erros aparecem só depois de processar."}
+            {
+              "type": "bullets",
+              "items": [
+                "laje sem apoio em um lado: processamento retorna deslocamento infinito",
+                "uso incorreto: sala tratada como depósito — sobrecarga errada",
+                "nervurada lançada como maciça: seção e rigidez incorretas",
+                "furo na laje sem definição de reforço de borda"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "**Uma laje mal lançada atrasa o projeto inteiro** — e os erros aparecem só depois de processar."
+            }
           ]
         },
         {
           "titulo": "Verificação Antes de Processar",
           "elementos": [
-            {"type": "text", "content": "Antes de rodar o modelo, confirme:"},
-            {"type": "bullets", "items": [
-              "cada laje tem apoio definido em todo o contorno",
-              "a carga variável corresponde ao uso real do pavimento",
-              "lajes isoladas (varandas, marquises) com vinculação própria"
-            ]},
-            {"type": "text", "content": "Verificar leva 5 minutos. Reprocessar por erro de laje leva uma tarde."}
+            {
+              "type": "text",
+              "content": "Antes de rodar o modelo, confirme:"
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "cada laje tem apoio definido em todo o contorno",
+                "a carga variável corresponde ao uso real do pavimento",
+                "lajes isoladas (varandas, marquises) com vinculação própria"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Verificar leva 5 minutos. Reprocessar por erro de laje leva uma tarde."
+            }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Laje é o elemento que mais gera reprocessamento desnecessário no TQS.\n\nNão porque é complexo. Porque a sequência de lançamento é ignorada.\n\nA laje é sempre o último elemento a ser lançado em cada pavimento — depois de todos os pilares e vigas estarem no lugar.\n\nE antes de processar, três perguntas:\n\n→ Todas as lajes têm apoio em todos os lados?\n→ A carga variável corresponde ao uso real do pavimento?\n→ Lajes isoladas — varanda, marquise — têm vinculação própria?\n\nUma laje sem apoio em um lado retorna deslocamento infinito. O modelo não processa e você precisa sair procurando onde está o problema.\n\nUm uso incorreto — sala tratada como depósito — gera sobrecarga errada e compromete o dimensionamento inteiro.\n\nO framework desse post evita os dois.\n\nSalva e usa no próximo projeto. TQS na Prática aprofunda cada uma dessas etapas. Link na bio."
+    "legenda": "Laje é o elemento que mais gera reprocessamento desnecessário no TQS.\n\nNão porque é complexo. Porque a sequência de lançamento é ignorada.\n\nA laje é sempre o último elemento a ser lançado em cada pavimento — depois de todos os pilares e vigas estarem no lugar.\n\nE antes de processar, três perguntas:\n\n→ Todas as lajes têm apoio em todos os lados?\n→ A carga variável corresponde ao uso real do pavimento?\n→ Lajes isoladas — varanda, marquise — têm vinculação própria?\n\nUma laje sem apoio em um lado retorna deslocamento infinito. O modelo não processa e você precisa sair procurando onde está o problema.\n\nUm uso incorreto — sala tratada como depósito — gera sobrecarga errada e compromete o dimensionamento inteiro.\n\nO framework desse post evita os dois.\n\nSalva e usa no próximo projeto. TQS na Prática aprofunda cada uma dessas etapas. Link na bio.",
+    "imagens_geradas": true
   },
   {
     "id": "2026-05-12_1700",
@@ -69,9 +104,18 @@
     "conteudo": {
       "capa": {
         "titulo_linhas": [
-          {"text": "QUANTO GANHA", "highlight": false},
-          {"text": "O CALCULISTA", "highlight": true},
-          {"text": "AUTÔNOMO?", "highlight": false}
+          {
+            "text": "QUANTO GANHA",
+            "highlight": false
+          },
+          {
+            "text": "O CALCULISTA",
+            "highlight": true
+          },
+          {
+            "text": "AUTÔNOMO?",
+            "highlight": false
+          }
         ],
         "subtitulo": "referências reais de mercado em 2026",
         "prompt": "civil engineer reviewing financial documents and project portfolio at professional office, calculator visible, photorealistic no text"
@@ -80,42 +124,69 @@
         {
           "titulo": "Faixa por Nível",
           "elementos": [
-            {"type": "text", "content": "Os valores variam por experiência, região e tipo de projeto."},
-            {"type": "bullets", "items": [
-              "iniciante (0-3 anos): R$ 3.000 – 6.000 por projeto residencial simples",
-              "intermediário (3-7 anos): R$ 6.000 – 15.000 por projeto médio porte",
-              "sênior (7+ anos): R$ 15.000 – 50.000 por edifício ou projeto complexo"
-            ]},
-            {"type": "box", "label": "REFERÊNCIA", "content": "Hora técnica: R$ 150–250 (iniciante) | R$ 300–500 (sênior)"}
+            {
+              "type": "text",
+              "content": "Os valores variam por experiência, região e tipo de projeto."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "iniciante (0-3 anos): R$ 3.000 – 6.000 por projeto residencial simples",
+                "intermediário (3-7 anos): R$ 6.000 – 15.000 por projeto médio porte",
+                "sênior (7+ anos): R$ 15.000 – 50.000 por edifício ou projeto complexo"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "REFERÊNCIA",
+              "content": "Hora técnica: R$ 150–250 (iniciante) | R$ 300–500 (sênior)"
+            }
           ]
         },
         {
           "titulo": "O que Define o Preço",
           "elementos": [
-            {"type": "numbered", "items": [
-              "complexidade: residencial simples x edifício multipavimento",
-              "prazo: urgência tem adicional obrigatório",
-              "escopo: só cálculo ou inclui detalhamento e memorial?",
-              "região: capitais praticam valores mais altos que interior"
-            ]},
-            {"type": "box", "label": "META", "content": "Faturamento mensal médio de um calculista estruturado: R$ 12.000 – 25.000"}
+            {
+              "type": "numbered",
+              "items": [
+                "complexidade: residencial simples x edifício multipavimento",
+                "prazo: urgência tem adicional obrigatório",
+                "escopo: só cálculo ou inclui detalhamento e memorial?",
+                "região: capitais praticam valores mais altos que interior"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "META",
+              "content": "Faturamento mensal médio de um calculista estruturado: R$ 12.000 – 25.000"
+            }
           ]
         },
         {
           "titulo": "Como Chegar Lá",
           "elementos": [
-            {"type": "text", "content": "Não é questão de tempo. É questão de **posicionamento e especialização**."},
-            {"type": "bullets", "items": [
-              "especialize-se em uma tipologia: residencial, galpão ou edifício",
-              "construa portfólio documentado com fotos das obras executadas",
-              "peça indicações ativamente após cada entrega bem-feita"
-            ]},
-            {"type": "text", "content": "Quem espera oportunidade, espera. Quem se posiciona, atrai."}
+            {
+              "type": "text",
+              "content": "Não é questão de tempo. É questão de **posicionamento e especialização**."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "especialize-se em uma tipologia: residencial, galpão ou edifício",
+                "construa portfólio documentado com fotos das obras executadas",
+                "peça indicações ativamente após cada entrega bem-feita"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Quem espera oportunidade, espera. Quem se posiciona, atrai."
+            }
           ]
         }
       ],
       "cta_type": "seguir"
     },
-    "legenda": "Essa pergunta circula em todo grupo de engenharia estrutural — e raramente tem resposta direta.\n\nQuanto ganha um calculista autônomo?\n\nDepende. Mas existem referências reais.\n\nUm calculista iniciante cobrando R$ 4.000 por projeto residencial simples, fechando 2 projetos por mês, fatura R$ 8.000.\n\nUm calculista sênior especializado em edifícios de médio porte, cobrando R$ 20.000 por projeto, com 1 projeto por mês, fatura R$ 20.000.\n\nA diferença não é só técnica — é de posicionamento e especialização.\n\nAlgumas variáveis que definem o valor:\n\n→ Complexidade e tipologia do projeto\n→ Prazo exigido (urgência tem custo)\n→ Escopo: só cálculo ou inclui detalhamento e memorial?\n→ Região: capitais praticam valores mais altos\n\nO teto do calculista autônomo não é fixo. Você define.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira toda semana."
+    "legenda": "Essa pergunta circula em todo grupo de engenharia estrutural — e raramente tem resposta direta.\n\nQuanto ganha um calculista autônomo?\n\nDepende. Mas existem referências reais.\n\nUm calculista iniciante cobrando R$ 4.000 por projeto residencial simples, fechando 2 projetos por mês, fatura R$ 8.000.\n\nUm calculista sênior especializado em edifícios de médio porte, cobrando R$ 20.000 por projeto, com 1 projeto por mês, fatura R$ 20.000.\n\nA diferença não é só técnica — é de posicionamento e especialização.\n\nAlgumas variáveis que definem o valor:\n\n→ Complexidade e tipologia do projeto\n→ Prazo exigido (urgência tem custo)\n→ Escopo: só cálculo ou inclui detalhamento e memorial?\n→ Região: capitais praticam valores mais altos\n\nO teto do calculista autônomo não é fixo. Você define.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira toda semana.",
+    "imagens_geradas": true
   }
 ]

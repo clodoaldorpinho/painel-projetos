@@ -30,7 +30,8 @@
       "cta_type": "seguir",
       "prompt_cta": "structural engineer confidently reviewing project documents at desk, professional Brazilian office, photorealistic no text"
     },
-    "legenda": "PVC +35%. Cimento +15%. Vergalhões +13%.\n\nO INCC-M de abril de 2026 registrou 1,4% — a maior variação mensal desde junho de 2022.\n\nIsso não é dado macroeconômico distante. Chega direto nos projetos.\n\nEngenheiro que fechou contrato no segundo semestre de 2025 sem cláusula de reajuste está absorvendo esse custo no próprio resultado.\n\nO material que o cliente especificou no projeto ficou 35% mais caro em menos de um ano.\n\nDois pontos de atenção para o engenheiro estrutural:\n\n→ Revise seus contratos ativos: há cláusula de reajuste pelo INCC?\n→ Nos novos contratos: inclua reajuste antes de assinar, não depois\n\nAlém disso, INCC alto afeta o orçamento do cliente. Projetos que estavam saindo podem ser revisados.\n\nEstar próximo do cliente nesse momento é diferencial.\n\nSiga @eng.clodoaldopinho para análise de mercado toda semana."
+    "legenda": "PVC +35%. Cimento +15%. Vergalhões +13%.\n\nO INCC-M de abril de 2026 registrou 1,4% — a maior variação mensal desde junho de 2022.\n\nIsso não é dado macroeconômico distante. Chega direto nos projetos.\n\nEngenheiro que fechou contrato no segundo semestre de 2025 sem cláusula de reajuste está absorvendo esse custo no próprio resultado.\n\nO material que o cliente especificou no projeto ficou 35% mais caro em menos de um ano.\n\nDois pontos de atenção para o engenheiro estrutural:\n\n→ Revise seus contratos ativos: há cláusula de reajuste pelo INCC?\n→ Nos novos contratos: inclua reajuste antes de assinar, não depois\n\nAlém disso, INCC alto afeta o orçamento do cliente. Projetos que estavam saindo podem ser revisados.\n\nEstar próximo do cliente nesse momento é diferencial.\n\nSiga @eng.clodoaldopinho para análise de mercado toda semana.",
+    "imagens_geradas": true
   },
   {
     "id": "2026-05-13_1200",
@@ -42,7 +43,8 @@
     "conteudo": {
       "prompt_conteudo": "The page shows a schema titled \"COMO LER UM MAPA DE CARGAS\" with subtitle \"(o que cada número e seta significa)\".\n\nContent structured in 3 clear sections:\n\nSECTION \"O QUE É\" [draw small arrow-loads diagram sketch in right margin]\n→ representação gráfica das cargas em cada elemento\n→ mostra: PP (peso próprio) + RCP + carga variável\n→ unidade usual: kN/m (vigas) ou kN/m² (lajes)\n\nHand-drawn horizontal divider line\n\nSECTION \"COMO INTERPRETAR\" [draw small magnifying glass icon]\n\nDraw three hand-sketched boxes side by side with labels:\n\n[ PP ] | [ RCP ] | [ VARIÁVEL ]\ngerado auto | piso acabado | uso do espaço\npelo TQS | revestimento | NBR 6120\n             | instalações |\n\nHand-drawn horizontal divider line\n\nSECTION \"SINAIS DE ALERTA\" [draw warning triangle ⚠ icon]\n✗ carga muito alta em viga de borda: checar transmissão da laje  [underline \"transmissão da laje\" in red]\n✗ PP zerado em algum elemento: seção não foi definida\n✗ carga concentrada inesperada: verificar ponto de aplicação\n→ regra: o mapa deve parecer lógico antes de processar  [draw red circle around \"lógico\"]\n\nINSIGHT BOX (dashed border rectangle):\n[lightbulb icon] \"Mapa de cargas errado = modelo errado.\nLixo entra, lixo sai.\"\n\n\"@eng.clodoaldopinho\" in small neat handwriting, centered, clearly above the bottom boundary."
     },
-    "legenda": "Saber processar o TQS não é suficiente se você não consegue ler o resultado.\n\nO mapa de cargas é o primeiro lugar onde erros de modelagem aparecem — antes do processamento.\n\nCom ele você verifica se o que você lançou faz sentido:\n\n→ O PP (peso próprio) está sendo calculado automaticamente?\n→ A RCP inclui piso, revestimento e instalações?\n→ A carga variável corresponde ao uso real do pavimento?\n\nAlguns sinais de alerta para procurar:\n\n→ Carga muito alta em uma viga de borda: checar transmissão de laje\n→ Peso próprio zerado em algum elemento: seção não foi atribuída\n→ Carga concentrada em ponto inesperado: verificar onde foi aplicada\n\nO mapa precisa parecer lógico antes de você rodar o processamento. Se algum valor parece estranho, investigue antes.\n\nSalva esse esquema. É a base para verificar qualquer modelo estrutural.\n\nSiga @eng.clodoaldopinho para conteúdo técnico toda semana."
+    "legenda": "Saber processar o TQS não é suficiente se você não consegue ler o resultado.\n\nO mapa de cargas é o primeiro lugar onde erros de modelagem aparecem — antes do processamento.\n\nCom ele você verifica se o que você lançou faz sentido:\n\n→ O PP (peso próprio) está sendo calculado automaticamente?\n→ A RCP inclui piso, revestimento e instalações?\n→ A carga variável corresponde ao uso real do pavimento?\n\nAlguns sinais de alerta para procurar:\n\n→ Carga muito alta em uma viga de borda: checar transmissão de laje\n→ Peso próprio zerado em algum elemento: seção não foi atribuída\n→ Carga concentrada em ponto inesperado: verificar onde foi aplicada\n\nO mapa precisa parecer lógico antes de você rodar o processamento. Se algum valor parece estranho, investigue antes.\n\nSalva esse esquema. É a base para verificar qualquer modelo estrutural.\n\nSiga @eng.clodoaldopinho para conteúdo técnico toda semana.",
+    "imagens_geradas": true
   },
   {
     "id": "2026-05-13_1700",
@@ -54,9 +56,18 @@
     "conteudo": {
       "capa": {
         "titulo_linhas": [
-          {"text": "CONTROLE DE REVISÕES", "highlight": true},
-          {"text": "DE PROJETO", "highlight": false},
-          {"text": "no Excel", "highlight": false}
+          {
+            "text": "CONTROLE DE REVISÕES",
+            "highlight": true
+          },
+          {
+            "text": "DE PROJETO",
+            "highlight": false
+          },
+          {
+            "text": "no Excel",
+            "highlight": false
+          }
         ],
         "subtitulo": "nunca mais perder qual versão foi enviada e quando",
         "prompt": "engineer working on organized Excel spreadsheet project control table on computer screen, professional office, photorealistic no text"
@@ -65,43 +76,69 @@
         {
           "titulo": "Por que Controlar Revisões",
           "elementos": [
-            {"type": "text", "content": "Sem controle de revisões, você não sabe qual versão foi para a obra."},
-            {"type": "bullets", "items": [
-              "cliente entrega uma planta que não é a última versão",
-              "obra executa com projeto desatualizado",
-              "engenheiro não consegue provar qual versão enviou e quando"
-            ]},
-            {"type": "box", "label": "RISCO", "content": "Retrabalho por falta de controle custa mais do que qualquer planilha."}
+            {
+              "type": "text",
+              "content": "Sem controle de revisões, você não sabe qual versão foi para a obra."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "cliente entrega uma planta que não é a última versão",
+                "obra executa com projeto desatualizado",
+                "engenheiro não consegue provar qual versão enviou e quando"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "RISCO",
+              "content": "Retrabalho por falta de controle custa mais do que qualquer planilha."
+            }
           ]
         },
         {
           "titulo": "As Colunas Essenciais",
           "elementos": [
-            {"type": "text", "content": "Uma planilha de controle de revisões precisa ter no mínimo:"},
-            {"type": "numbered", "items": [
-              "Rev. — A, B, C ou 00, 01, 02...",
-              "Data de emissão",
-              "Descrição breve da alteração",
-              "Quem solicitou a revisão",
-              "Status: emitido, em análise ou aprovado"
-            ]},
-            {"type": "text", "content": "**Formato recomendado:** uma linha por revisão, uma aba por projeto."}
+            {
+              "type": "text",
+              "content": "Uma planilha de controle de revisões precisa ter no mínimo:"
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "Rev. — A, B, C ou 00, 01, 02...",
+                "Data de emissão",
+                "Descrição breve da alteração",
+                "Quem solicitou a revisão",
+                "Status: emitido, em análise ou aprovado"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "**Formato recomendado:** uma linha por revisão, uma aba por projeto."
+            }
           ]
         },
         {
           "titulo": "Boas Práticas",
           "elementos": [
-            {"type": "bullets", "items": [
-              "nunca sobrescreva o arquivo — sempre nova versão com data no nome",
-              "envie sempre em PDF com carimbo de revisão visível no carimbo",
-              "guarde o e-mail de solicitação de cada revisão junto com o arquivo"
-            ]},
-            {"type": "text", "content": "Excel simples e **consistente** bate sistema complexo e abandonado."}
+            {
+              "type": "bullets",
+              "items": [
+                "nunca sobrescreva o arquivo — sempre nova versão com data no nome",
+                "envie sempre em PDF com carimbo de revisão visível no carimbo",
+                "guarde o e-mail de solicitação de cada revisão junto com o arquivo"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Excel simples e **consistente** bate sistema complexo e abandonado."
+            }
           ]
         }
       ],
       "cta_type": "mepe"
     },
-    "legenda": "O cenário mais comum nos escritórios de estruturas sem controle de revisões:\n\nO cliente liga perguntando sobre uma planta. Você não sabe se o arquivo que abriu é a versão que foi para a obra. Ninguém sabe.\n\nIsso não é problema de tecnologia. É falta de método.\n\nUma planilha Excel simples resolve — se usada de forma consistente.\n\nAs colunas que não podem faltar:\n\n→ Número da revisão (A, B, C ou 00, 01, 02)\n→ Data de emissão\n→ Descrição breve do que mudou\n→ Quem solicitou\n→ Status atual\n\nAlém da planilha:\n\n→ Nunca sobrescreva arquivo — nova versão com data no nome\n→ Envie sempre em PDF com carimbo de revisão\n→ Guarde o e-mail de envio como prova de entrega\n\nO que não está documentado, não foi entregue. Simples assim.\n\nO Método Excel Para Engenheiros vai além do controle de revisões. Acesse o link na bio."
+    "legenda": "O cenário mais comum nos escritórios de estruturas sem controle de revisões:\n\nO cliente liga perguntando sobre uma planta. Você não sabe se o arquivo que abriu é a versão que foi para a obra. Ninguém sabe.\n\nIsso não é problema de tecnologia. É falta de método.\n\nUma planilha Excel simples resolve — se usada de forma consistente.\n\nAs colunas que não podem faltar:\n\n→ Número da revisão (A, B, C ou 00, 01, 02)\n→ Data de emissão\n→ Descrição breve do que mudou\n→ Quem solicitou\n→ Status atual\n\nAlém da planilha:\n\n→ Nunca sobrescreva arquivo — nova versão com data no nome\n→ Envie sempre em PDF com carimbo de revisão\n→ Guarde o e-mail de envio como prova de entrega\n\nO que não está documentado, não foi entregue. Simples assim.\n\nO Método Excel Para Engenheiros vai além do controle de revisões. Acesse o link na bio.",
+    "imagens_geradas": true
   }
 ]
