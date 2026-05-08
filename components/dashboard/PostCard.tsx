@@ -6,6 +6,20 @@ import { StatusBadge } from "./StatusBadge"
 import { cn } from "@/lib/utils"
 
 function ConteudoLink({ post, localImages }: { post: Post; localImages: boolean }) {
+  const hasImages =
+    (post.drive_imagens && post.drive_imagens.length > 0) ||
+    (localImages && (post.status === "gerado" || post.status === "publicado"))
+
+  if (hasImages) {
+    return (
+      <Link
+        href={`/posts/${encodeURIComponent(post.nome)}`}
+        className="text-xs text-blue-400 hover:text-blue-300 hover:underline transition-colors"
+      >
+        Ver conteúdo
+      </Link>
+    )
+  }
   if (post.drive_folder_id) {
     return (
       <a
@@ -16,16 +30,6 @@ function ConteudoLink({ post, localImages }: { post: Post; localImages: boolean 
       >
         Ver no Drive ↗
       </a>
-    )
-  }
-  if (localImages && (post.status === "gerado" || post.status === "publicado")) {
-    return (
-      <Link
-        href={`/posts/${encodeURIComponent(post.nome)}`}
-        className="text-xs text-zinc-400 hover:text-zinc-200 hover:underline transition-colors"
-      >
-        Ver conteúdo
-      </Link>
     )
   }
   return null
