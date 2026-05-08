@@ -10,94 +10,156 @@
       "capa": {
         "titulo_linhas": [
           {
-            "text": "ANTES DE EMITIR",
+            "text": "VERIFICACAO TECNICA",
             "highlight": false
           },
           {
-            "text": "A ART",
+            "text": "DO RESULTADO",
             "highlight": true
           },
           {
-            "text": "de projeto estrutural",
+            "text": "antes de assinar a ART",
             "highlight": false
           }
         ],
-        "subtitulo": "o que não pode estar pendente quando você assina",
-        "prompt": "engineer signing official technical documents at desk with structural drawings in background, serious professional expression, photorealistic no text"
+        "subtitulo": "o que conferir no modelo depois do processamento",
+        "prompt": "structural engineer carefully reviewing structural analysis results on computer screens with graphs tables and diagrams, focused professional expression, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "Documentação Técnica",
+          "titulo": "Por que Verificar o Resultado",
           "elementos": [
             {
               "type": "text",
-              "content": "A ART vincula seu nome ao projeto. Tudo precisa estar **concluído**."
+              "content": "Processamento bem-sucedido nao significa resultado correto. Significa que o TQS executou sem erros no modelo."
             },
             {
               "type": "bullets",
               "items": [
-                "memorial de cálculo finalizado e arquivado",
-                "plantas de forma com cotas, nomenclatura e paginação",
-                "detalhamentos de armação conferidos com o memorial",
-                "especificação de fck, aço e cobrimento nas folhas"
+                "o TQS processa o modelo que voce lancou, nao verifica se esta correto",
+                "resultado implausivel pode aparecer sem mensagem de erro",
+                "armadura minima nao atendida: o software indica, mas nao impede a entrega"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "PREMISSA",
+              "content": "A responsabilidade pela validacao do resultado e do engenheiro, nao do software."
+            }
+          ]
+        },
+        {
+          "titulo": "Verificacao de Deslocamentos",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Os limites de deslocamento estao na NBR 6118 Tabela 13.3. O TQS calcula, mas **nao aplica os limites automaticamente**."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "verificar flechas imediatas em lajes: limite usual L/250",
+                "verificar flechas totais incluindo fluencia: limite L/350 para particoes",
+                "verificar deslocamentos de pilar: H/300 para estruturas com alvenaria",
+                "cruzar os resultados do TQS com os limites da norma manualmente"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "ALERTA",
+              "content": "Edificio com deformacao acima do limite da norma esta com estado limite de servico atingido."
+            }
+          ]
+        },
+        {
+          "titulo": "Reacoes de Apoio",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "As reacoes de apoio sao o primeiro sinal de que o modelo esta correto."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "somar as reacoes verticais de todos os apoios: deve ser igual a carga total aplicada",
+                "reacao negativa em pilar: erro de vinculacao ou carregamento invertido",
+                "reacao muito discrepante em relacao aos vizinhos: verificar carregamento naquele trecho",
+                "fundacao dimensionada com as reacoes do modelo, nao com estimativa"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Balanco de carga verificado e o minimo de coerencia esperado de qualquer modelo."
+            }
+          ]
+        },
+        {
+          "titulo": "Armadura Minima e Maxima",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O TQS sinaliza mas nao bloqueia: a armadura pode estar fora dos limites da NBR 6118."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "taxa minima em vigas: conforme Tabela 17.3 da NBR 6118",
+                "taxa maxima: 4% em geral, reduzida nas zonas de emenda",
+                "armadura minima em pilares: 0,4% da secao transversal",
+                "verificar o relatorio de armadura antes de aceitar o resultado como definitivo"
               ]
             },
             {
               "type": "box",
               "label": "REGRA",
-              "content": "Se algo ainda está para ajustar depois, não emita a ART."
+              "content": "Armadura abaixo do minimo: ART assinada com projeto em desacordo com a norma."
             }
           ]
         },
         {
-          "titulo": "Verificação do Modelo",
+          "titulo": "Estado Limite de Servico",
           "elementos": [
-            {
-              "type": "bullets",
-              "items": [
-                "deslocamentos dentro dos limites da NBR 6118",
-                "reações de apoio plausíveis para as cargas aplicadas",
-                "armadura mínima atendida em todos os elementos",
-                "verificação de estado limite de serviço: fissuração e deformação"
-              ]
-            },
             {
               "type": "text",
-              "content": "Resultado do processamento **revisado**, não apenas aceito."
-            }
-          ]
-        },
-        {
-          "titulo": "Compatibilização Final",
-          "elementos": [
+              "content": "O ELS verifica o comportamento da estrutura em uso, nao na ruina."
+            },
             {
               "type": "numbered",
               "items": [
-                "estrutura compatível com a planta arquitetônica enviada ao cliente",
-                "instalações não conflitam com elementos estruturais",
-                "cliente recebeu e confirmou recebimento da versão final",
-                "cópia arquivada de tudo que foi entregue"
+                "fissuração: verificar largura de fissura conforme classe de agressividade e tipo de elemento",
+                "deformacao: verificar flechas sob carga de longa duracao",
+                "verificar se o TQS foi configurado para calcular ELS antes do processamento",
+                "estrutura que atende ao ELU mas nao ao ELS pode estar fora do conforto de uso"
               ]
             },
             {
               "type": "text",
-              "content": "ART é responsabilidade **vitalícia**. Revise antes, não depois."
+              "content": "ELS nao e opcional. E obrigatorio pela NBR 6118 e afeta a durabilidade da estrutura."
+            }
+          ]
+        },
+        {
+          "titulo": "O que a Assinatura da ART Declara",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Quando voce assina a ART, voce esta declarando que verificou o resultado e que ele esta em conformidade com as normas vigentes."
+            },
+            {
+              "type": "text",
+              "content": "A verificacao tecnica nao e burocracia. E o que sustenta a assinatura."
+            },
+            {
+              "type": "box",
+              "label": "TQS NA PRATICA",
+              "content": "O curso ensina a verificacao completa do resultado do TQS antes da emissao da ART, com checklist aplicado ao modelo. Link na bio."
             }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Existe uma diferença entre terminar um projeto e estar pronto para emitir a ART.\n\nO projeto termina quando o processamento fecha. A ART está pronta quando tudo o que você assina está verificado, entregue e documentado.\n\nO que não pode estar pendente quando você assina:\n\n→ Memorial de cálculo finalizado — não rascunho\n→ Detalhamentos conferidos com o memorial\n→ Deslocamentos e armaduras revisados\n→ Estrutura compatibilizada com a arquitetura final\n→ Cliente com a versão definitiva confirmada por escrito\n\nA ART vincula seu nome ao projeto pela vida útil da edificação. Não tem prazo de validade, não tem revisão.\n\nSe algo ficou pendente, a ART espera.\n\nNunca o contrário.\n\nTQS na Prática ensina a metodologia de verificação completa antes da entrega. Link na bio.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1LaOHZ7EY7eIvG3HD9WHn8h77InDKDe9D",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=1UfkbgLL3mNCdF7Sz8hjdqFj66AL4zoh9",
-      "https://drive.google.com/uc?export=download&id=1D-Yqc7CbT8bchGqZG9IU-qCFoSP0BEGj",
-      "https://drive.google.com/uc?export=download&id=1wIUG5R3yUcmKC_asFAXE-9LBPwR8lo6o",
-      "https://drive.google.com/uc?export=download&id=1aL8n1vteoH6zP7XaT37If3Hvusg2wEJP",
-      "https://drive.google.com/uc?export=download&id=1ZcpQSkwwixBpiJoQlEAhNSsK2kp5U-E8"
-    ]
+    "legenda": "Processamento bem-sucedido nao e resultado correto. E processamento sem erros de modelo.\n\nA verificacao tecnica e o que separa os dois.\n\nO que verificar no resultado antes de assinar a ART:\n\nDeslocamentos:\n→ Flechas imediatas: limite L/250 para lajes\n→ Flechas totais com fluencia: limite L/350 com particoes\n→ Deslocamento de pilar: H/300 para estruturas com alvenaria\n\nReacoes de apoio:\n→ Soma de reacoes verticais deve fechar com a carga total\n→ Reacao negativa em pilar: erro no modelo\n\nArmadura:\n→ Taxa minima atendida em vigas e pilares\n→ Taxa maxima respeitada nas regioes de emenda\n\nEstado Limite de Servico:\n→ Fissurizacao conforme classe de agressividade\n→ ELS configurado antes do processamento\n\nA ART vincula seu nome ao projeto. A verificacao tecnica e o que justifica essa assinatura.\n\nTQS na Pratica cobre verificacao completa do resultado antes da emissao da ART. Link na bio."
   },
   {
     "id": "2026-05-14_1700",
@@ -134,7 +196,7 @@
     "drive_imagens": [
       "https://drive.google.com/uc?export=download&id=1P8bWl51HKH1ghBjQdf4UYsH3mMuhEvvr",
       "https://drive.google.com/uc?export=download&id=16TkM309xjVD8WA2urSwd93MOD9uMjqfU",
-      "https://drive.google.com/uc?export=download&id=18z5TPrEf9MLpGUKJt5jUUKz5zHI_DoRK",
+      "https://drive.google.com/uc?export=download&id=18z5TPrEf9MLpGUKJp5jUUKz5zHI_DoRK",
       "https://drive.google.com/uc?export=download&id=1v17CNfZwWrEGWhOv1vrffwktMao15vrD",
       "https://drive.google.com/uc?export=download&id=1YmHK7_VTolJ67IQL_oBKCeY2fcB2glfY"
     ]

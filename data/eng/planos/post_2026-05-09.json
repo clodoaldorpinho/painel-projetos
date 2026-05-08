@@ -10,94 +10,150 @@
       "capa": {
         "titulo_linhas": [
           {
-            "text": "POR QUE O TQS NÃO",
+            "text": "COMO RESOLVER",
             "highlight": false
           },
           {
-            "text": "PROCESSA",
+            "text": "ERROS NO TQS",
             "highlight": true
           },
           {
-            "text": "MEU MODELO?",
+            "text": "antes de processar",
             "highlight": false
           }
         ],
-        "subtitulo": "as causas mais comuns e como corrigir",
-        "prompt": "frustrated engineer looking at structural engineering software error on computer screen, office, photorealistic no text"
+        "subtitulo": "as mensagens mais comuns e o que fazer com cada uma",
+        "prompt": "structural engineer at dual-monitor workstation looking at TQS structural software with error messages on screen, professional office Brazil, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "A Mensagem de Erro",
+          "titulo": "Duas Categorias de Problema",
           "elementos": [
             {
               "type": "text",
-              "content": "Quando o TQS retorna **'estrutura instável'** ou **deslocamento infinito**, o modelo tem falha de vinculação ou conectividade."
+              "content": "O TQS classifica os problemas do modelo em dois tipos com **impacto diferente** no processamento."
             },
             {
               "type": "bullets",
               "items": [
-                "nó solto: elemento existe mas não está conectado à estrutura",
-                "apoio mal configurado: pilar sem vinculação à fundação",
-                "laje flutuante: sem apoio em pelo menos um lado"
+                "erros criticos: impedem o processamento e devem ser corrigidos antes de rodar",
+                "avisos: o processamento continua, mas o resultado pode estar comprometido",
+                "aviso ignorado sistematicamente e um erro que o engenheiro aceitou"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "ATENCAO",
+              "content": "Avisos repetidos em todo processamento nao sao normais. Sao sinal de modelagem incorreta."
+            }
+          ]
+        },
+        {
+          "titulo": "Nos Soltos e Barras Desconectadas",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O no solto e o erro mais frequente no TQS: elemento presente no modelo mas **nao conectado a estrutura**."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "pilar sem apoio definido na fundacao: deslocamento livre na base",
+                "viga lancada fora da grelha: nao transmite carga ao pilar",
+                "laje com borda livre que deveria estar apoiada"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Solucao: ativar a visualizacao de nos no modelo 3D e rastrear a continuidade dos elementos."
+            }
+          ]
+        },
+        {
+          "titulo": "Verificar Consistencia: Use Antes de Processar",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O TQS tem uma ferramenta especifica para encontrar problemas antes do processamento."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "acesse Processamento e Verificar Consistencia",
+                "o relatorio lista erros e avisos com localizacao exata no modelo",
+                "filtre por tipo e resolva um por um, nao tente processar com a lista aberta",
+                "rode novamente ate o relatorio retornar apenas avisos nao criticos"
               ]
             },
             {
               "type": "box",
               "label": "REGRA",
-              "content": "Um único nó solto trava o processamento inteiro."
+              "content": "Nao rode o processamento com erros abertos no relatorio de consistencia."
             }
           ]
         },
         {
-          "titulo": "Causas Mais Comuns",
+          "titulo": "Erros de Secao, Carga e Vinculacao",
           "elementos": [
+            {
+              "type": "text",
+              "content": "Esses erros produzem resultado que **parece valido** mas esta incorreto:"
+            },
             {
               "type": "bullets",
               "items": [
-                "viga lançada mas não conectada ao pilar no nó exato",
-                "cotas de nível inconsistentes entre pavimentos",
-                "carga aplicada fora do comprimento do elemento",
-                "seção de barra com valor inválido ou não atribuída"
+                "secao nao definida: peso proprio zero, o elemento existe mas nao pesa",
+                "carga de laje nao transmitida: a carga desaparece do modelo",
+                "vinculacao errada em pilar: deslocamento irreal no no de topo",
+                "fck nao atribuido: processamento usa valor padrao do software"
               ]
-            },
-            {
-              "type": "box",
-              "label": "DICA TQS",
-              "content": "Use Verificar → Consistência do Modelo antes de processar para localizar elementos problemáticos."
             }
           ]
         },
         {
-          "titulo": "Como Corrigir",
+          "titulo": "Como Corrigir com Metodo",
           "elementos": [
+            {
+              "type": "text",
+              "content": "A abordagem correta e partir da origem, nao do sintoma."
+            },
             {
               "type": "numbered",
               "items": [
-                "acesse: Verificar → Consistência do modelo",
-                "localize nós soltos na vista gráfica (aparecem destacados)",
-                "verifique vinculações de apoio pavimento a pavimento",
-                "reprocesse após cada correção — não acumule ajustes"
+                "abrir o relatorio de consistencia completo",
+                "localizar o elemento no modelo 3D pela referencia do relatorio",
+                "corrigir a definicao do elemento: secao, vinculacao ou carregamento",
+                "reprocessar a consistencia antes de avancar"
               ]
             },
             {
               "type": "text",
-              "content": "Na maioria dos casos **um nó solto** resolve. Verifique antes de mudar qualquer coisa no modelo."
+              "content": "Cada erro tem uma origem especifica. Corrigir pelo sintoma deixa o problema original intacto."
+            }
+          ]
+        },
+        {
+          "titulo": "O Erro que o TQS Nao Detecta",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O relatorio de consistencia encontra o que esta tecnicamente errado no modelo. Nao detecta o que esta **logicamente incorreto**."
+            },
+            {
+              "type": "text",
+              "content": "Combinacao de acoes incompleta, parametros de processamento fora do padrao, coeficientes aplicados incorretamente: esses erros passam pelo processamento e aparecem no resultado final."
+            },
+            {
+              "type": "box",
+              "label": "TQS NA PRATICA",
+              "content": "O curso cobre a verificacao completa do modelo estrutural, do relatorio de consistencia ao resultado antes de assinar a ART. Link na bio."
             }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Essa dúvida aparece toda semana nos grupos de engenharia estrutural.\n\nO modelo não processa. A tela trava. O TQS retorna mensagem de erro e você não sabe por onde começar a procurar.\n\nA causa, na maioria dos casos, é mais simples do que parece:\n\n→ Um nó solto que parece conectado mas não está\n→ Uma viga que visualmente encosta no pilar mas não foi lançada no nó\n→ Um apoio de fundação que ficou faltando\n\nO verificador de consistência do TQS é o primeiro passo — antes de qualquer outra coisa. Ele mapeia os elementos com problema e já indica onde olhar.\n\nDebugar modelo no TQS sem usar o verificador é como procurar vazamento sem fechar o registro.\n\nSalva esse post para a próxima vez que o processamento travar.\n\nTQS na Prática ensina a metodologia completa de modelagem. Acesse o link na bio.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1fL_6HVYihB6ivcTCb3en7twmgv4KjOYh",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=1Ov2-1SSS_NYON29-6vNQbq-aLVBjkMNH",
-      "https://drive.google.com/uc?export=download&id=1JTDcA4ezLU72aBJI97fTvOqlq_OX_qi6",
-      "https://drive.google.com/uc?export=download&id=13emmuYtgIQlWU2F7iFQsEYGhBaFFLBJ2",
-      "https://drive.google.com/uc?export=download&id=1ZYEZQXu-9ClECx_bcV5Gygk0fEoib31O",
-      "https://drive.google.com/uc?export=download&id=13IAhsLTcHIMjummOOF-vGX6kQTwem5Ky"
-    ]
+    "legenda": "O TQS avisa quando algo esta errado no modelo. Mas nem tudo que esta errado gera aviso.\n\nOs erros mais comuns antes do processamento:\n\n→ No solto: elemento presente no modelo, desconectado da estrutura\n→ Secao nao definida: peso proprio zero\n→ Carga de laje nao transmitida: carga some do modelo\n→ Vinculacao errada: deslocamento irreal\n\nO Verificar Consistencia lista tudo antes do processamento. Use antes de rodar, nao depois.\n\nComo usar com metodo:\n→ Abrir o relatorio completo\n→ Localizar cada elemento com problema no modelo 3D\n→ Corrigir na definicao do elemento\n→ Reprocessar ate o relatorio estar limpo\n\nO problema real nao e o erro que aparece no relatorio. E o erro que o TQS aceita e o engenheiro nao percebe.\n\nTQS na Pratica cobre verificacao completa de modelo antes da entrega. Link na bio."
   },
   {
     "id": "2026-05-09_1200",
@@ -127,91 +183,151 @@
       "capa": {
         "titulo_linhas": [
           {
-            "text": "COMO MONTAR SUA",
+            "text": "COMO MONTAR",
             "highlight": false
           },
           {
-            "text": "CARTEIRA DE CLIENTES",
+            "text": "UMA CARTEIRA",
             "highlight": true
           },
           {
-            "text": "como calculista autônomo",
+            "text": "de clientes recorrentes",
             "highlight": false
           }
         ],
-        "subtitulo": "do zero até os primeiros contratos recorrentes",
-        "prompt": "civil engineer meeting with architect client at modern office, professional handshake, Brazilian architecture firm environment, photorealistic no text"
+        "subtitulo": "do primeiro projeto ao cliente fixo, o caminho que a maioria ignora",
+        "prompt": "confident structural engineer shaking hands with client in professional office, project drawings on table, bright professional setting Brazil, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "Onde Estão Seus Clientes",
+          "titulo": "Por que Recorrencia Define a Carreira",
           "elementos": [
             {
               "type": "text",
-              "content": "**Escritórios de arquitetura** são o cliente ideal para o calculista autônomo."
+              "content": "Cliente recorrente nao e sorte. E o resultado de um processo que comeca no primeiro projeto."
             },
             {
               "type": "bullets",
               "items": [
-                "cada arquiteto ativo tem demanda constante por projeto estrutural",
-                "relacionamento de longo prazo — não é projeto a projeto",
-                "indicação entre escritórios é o principal canal de aquisição"
+                "cliente que volta: voce ja conhece o padrao, o prazo e o nivel de exigencia",
+                "cliente novo: custo de prospeccao, alinhamento e risco de incompatibilidade",
+                "3 clientes recorrentes fixos equivalem a previsibilidade de receita por meses"
               ]
             },
             {
               "type": "box",
               "label": "REGRA",
-              "content": "Um cliente satisfeito indica dois. Entrega no prazo é o melhor marketing que existe."
+              "content": "Primeiro projeto com novo cliente e custo. Segundo projeto e margem."
             }
           ]
         },
         {
-          "titulo": "Como se Posicionar",
+          "titulo": "Quem e o Cliente Ideal",
           "elementos": [
             {
               "type": "text",
-              "content": "O cliente não quer só o cálculo. Ele quer **segurança e prazo**."
+              "content": "Nao e o cliente que paga mais por projeto. E o que gera **mais projetos no mesmo periodo**."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "incorporadoras de medio porte: projetos em serie com padrao repetivel",
+                "construtoras sem calculista proprio: voce vira o engenheiro da empresa",
+                "arquitetos com carteira ativa: cada cliente deles e um potencial projeto para voce",
+                "proprietarios que constroem regularmente: reforma, ampliacao, novo empreendimento"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Cada perfil tem um ciclo diferente. O trabalho e entrar no ciclo certo."
+            }
+          ]
+        },
+        {
+          "titulo": "Como Abordar sem Parecer Vendedor",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Engenheiro nao vende servico. Resolve problemas. A abordagem certa parte disso."
             },
             {
               "type": "numbered",
               "items": [
-                "tenha portfólio objetivo: tipologias que atende, prazos reais",
-                "defina escopo com clareza — o que está e o que não está incluso",
-                "seja o primeiro a responder — velocidade vira diferencial",
-                "peça referências ativamente após cada entrega"
+                "identifique o problema especifico antes de qualquer contato",
+                "apresente como voce resolve aquele problema, nao o que voce faz em geral",
+                "mostre resultado de projeto anterior relevante para o perfil dele",
+                "encerre com pergunta pratica: qual e o proximo projeto que vai precisar de estrutura?"
               ]
+            },
+            {
+              "type": "box",
+              "label": "REGRA",
+              "content": "O primeiro contato nao e proposta. E diagnostico."
             }
           ]
         },
         {
-          "titulo": "Primeiros Passos",
+          "titulo": "O que o Cliente Compra de Verdade",
           "elementos": [
+            {
+              "type": "text",
+              "content": "O cliente nao compra calculo estrutural. Ele compra **seguranca para tomar decisao**."
+            },
             {
               "type": "bullets",
               "items": [
-                "liste 10 arquitetos locais e contate com portfólio em mãos",
-                "faça o primeiro projeto por preço competitivo — nunca de graça",
-                "peça autorização para usar como referência após a entrega"
+                "prazo cumprido: ele consegue apresentar para banco, prefeitura e construtor",
+                "ART em dia: nenhum risco de embargo no projeto",
+                "compatibilizacao feita: sem surpresa de obra",
+                "comunicacao clara: ele nao precisa entender engenharia para trabalhar com voce"
               ]
             },
             {
               "type": "text",
-              "content": "A carteira de clientes se **constrói por projeto**. Não tem atalho — mas tem método."
+              "content": "O calculista que entrega tudo isso tem cliente fiel. Sem precisar de campanha de marketing."
+            }
+          ]
+        },
+        {
+          "titulo": "De Primeiro Projeto a Cliente Fixo",
+          "elementos": [
+            {
+              "type": "numbered",
+              "items": [
+                "entregue o primeiro projeto melhor do que o combinado",
+                "no encerramento, pergunte sobre o proximo passo do empreendimento dele",
+                "mande uma analise rapida do mercado local 90 dias depois",
+                "esteja disponivel para duvida rapida, isso cria dependencia positiva",
+                "no proximo projeto dele, voce ja e o engenheiro"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Cada etapa tem uma acao especifica. Nao e acaso, e metodo."
+            }
+          ]
+        },
+        {
+          "titulo": "O Numero que Muda a Equacao",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Com 5 clientes recorrentes, o calculista tem previsibilidade de receita e liberdade para recusar projeto que nao vale a pena."
+            },
+            {
+              "type": "text",
+              "content": "Nao e sobre ter muitos clientes. E sobre ter os clientes certos, com frequencia certa."
+            },
+            {
+              "type": "box",
+              "label": "SIGA O PERFIL",
+              "content": "Conteudo sobre carreira no mercado de projetos estruturais toda semana, direto no @eng.clodoaldopinho."
             }
           ]
         }
       ],
       "cta_type": "seguir"
     },
-    "legenda": "Calculista autônomo sem carteira de clientes é freelancer de oportunidade.\n\nCalculista com carteira estruturada tem renda previsível.\n\nA diferença está no método de aquisição.\n\nEscritórios de arquitetura são o cliente ideal: têm demanda constante, valorizam parceria de longo prazo e indicam para outros arquitetos quando o trabalho é bom.\n\nComo começar:\n\n→ Identifique 10 escritórios de arquitetura na sua cidade\n→ Entre em contato com portfólio objetivo — 3 projetos, tipologias e prazos reais\n→ Faça o primeiro projeto por preço competitivo — mas nunca de graça\n→ Entregue antes do prazo. Peça referência por escrito.\n\nA carteira de clientes não vem de uma vez. Vem de cada projeto bem entregue.\n\nQuem espera indicação passiva demora anos. Quem busca ativamente constrói a carteira em meses.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira e técnico toda semana.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1UDO_SN3Lugf8T_lSgl74N8rJjrDAgQ9X",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=11AAwiXbh057vCsMWX1cJvXa8vx62V4eA",
-      "https://drive.google.com/uc?export=download&id=1Jjj9IwsBbLH-EjJxnWf6KdecH8wTmhON",
-      "https://drive.google.com/uc?export=download&id=1WL-t99AskLf0tB-0TeXIdriLudqM-N87",
-      "https://drive.google.com/uc?export=download&id=1P8EeupA5zYLPAtazJhqMwOmCYdacgRPh",
-      "https://drive.google.com/uc?export=download&id=1iJ0ivf4Zodp_aoRiIBs9mwYpBGXX2lEY"
-    ]
+    "legenda": "Cliente recorrente nao e consequencia de sorte ou de preco baixo.\n\nE consequencia de processo.\n\nO engenheiro que tem carteira de clientes recorrentes fez escolhas diferentes desde o primeiro projeto:\n\n→ Escolheu o perfil certo de cliente, nao o que pagou mais uma vez\n→ Entregou alem do que foi pedido, nao o minimo\n→ Ficou presente depois da entrega, nao so durante\n→ Perguntou sobre o proximo projeto antes de o cliente pensar nisso\n\nA diferenca entre engenheiro com agenda cheia e engenheiro buscando projeto novo nao e tecnica.\n\nE comercial, no sentido mais direto da palavra.\n\n3 clientes recorrentes fixos mudam a matematica da carreira autonoma. Com 5, a liberdade de recusar projeto ruim e real.\n\nSiga @eng.clodoaldopinho para conteudo de carreira toda semana."
   }
 ]

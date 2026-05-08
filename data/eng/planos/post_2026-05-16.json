@@ -22,88 +22,143 @@
             "highlight": false
           }
         ],
-        "subtitulo": "a dúvida que todo calculista já teve",
+        "subtitulo": "a duvida que todo calculista ja teve",
         "prompt": "close-up of concrete beam cross-section showing steel reinforcement bars with measurement arrows indicating cover distance, structural engineering concept, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "O que é Cobrimento",
+          "titulo": "O que e Cobrimento e Por que Importa",
           "elementos": [
             {
               "type": "text",
-              "content": "Cobrimento nominal é a distância entre a face externa do concreto e a **face da armadura mais externa**."
+              "content": "Cobrimento nominal e a distancia entre a face do concreto e a **face da armadura mais externa**, incluindo estribos."
             },
             {
               "type": "bullets",
               "items": [
-                "protege a armadura contra corrosão e ação do fogo",
-                "calculado como: c_nom = c_min + tolerância de execução (Δc)"
+                "protege a armadura contra corrosao: impede que agentes agressivos cheguem ao aco",
+                "garante aderencia entre o concreto e a armadura",
+                "protege contra acao do fogo: reduz a taxa de aquecimento do aco",
+                "determinado pela NBR 6118 em funcao da agressividade do ambiente"
               ]
             },
             {
               "type": "box",
-              "label": "FÓRMULA",
-              "content": "c_nom = c_min + Δc | Δc usual: 10 mm (obras normais)"
+              "label": "ATENCAO",
+              "content": "Cobrimento insuficiente nao aparece na vistoria de rotina. Aparece em laudos de pericia anos depois."
             }
           ]
         },
         {
-          "titulo": "Como Definir c_min",
+          "titulo": "Cobrimento Nominal vs. Cobrimento Minimo",
           "elementos": [
             {
               "type": "text",
-              "content": "O cobrimento mínimo depende da **Classe de Agressividade Ambiental (CAA)**:"
+              "content": "Esse e o erro mais comum: usar o cobrimento minimo como se fosse o nominal."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "cobrimento minimo c_min: valor de calculo da norma, conforme a CAA",
+                "tolerancia de execucao Dc: margem para variacao durante a obra",
+                "cobrimento nominal c_nom: o que vai para o projeto e para as pranchas"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "FORMULA",
+              "content": "c_nom = c_min + Dc | Dc usual: 10 mm para obras normais, NBR 6118 item 7.4.1"
+            }
+          ]
+        },
+        {
+          "titulo": "Classes de Agressividade Ambiental",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O cobrimento minimo depende da CAA do local da obra, definida na NBR 6118 Tabela 6.1."
             },
             {
               "type": "numbered",
               "items": [
-                "CAA I (fraca): c_min = 25 mm — interior de edificação seca",
-                "CAA II (moderada): c_min = 30 mm — urbano e rural",
-                "CAA III (forte): c_min = 40 mm — marinha ou industrial",
-                "CAA IV (muito forte): c_min = 50 mm — agressividade muito intensa"
+                "CAA I fraca: interior de edificacao seca, c_min de 25 mm",
+                "CAA II moderada: urbano e rural, c_min de 30 mm",
+                "CAA III forte: marinha ou industrial, c_min de 40 mm",
+                "CAA IV muito forte: agressividade muito intensa, c_min de 50 mm"
               ]
             },
             {
               "type": "text",
-              "content": "Tabela de referência: **NBR 6118 — Tabela 7.2**."
+              "content": "Cada classe exige nao so cobrimento maior, mas tambem **fck minimo** conforme NBR 6118 Tabela 7.1."
             }
           ]
         },
         {
-          "titulo": "Erros Comuns",
+          "titulo": "Como Definir a CAA Corretamente",
           "elementos": [
+            {
+              "type": "text",
+              "content": "A CAA nao e estimativa. E avaliacao tecnica das condicoes de exposicao da estrutura."
+            },
             {
               "type": "bullets",
               "items": [
-                "usar c_min sem somar o Δc — nominal é diferente de mínimo",
-                "não verificar a CAA antes de definir o fck do projeto",
-                "ignorar cobrimento diferenciado em lajes planas e vigas invertidas"
+                "cidade litoral a menos de 3 km do mar: CAA III no minimo",
+                "regiao com nevoa salina ou contaminantes industriais: CAA III ou IV",
+                "pilares em contato com solo ou agua: CAA III minimo",
+                "face inferior de laje sobre aterro: verificar grau de umidade do solo"
               ]
             },
             {
               "type": "box",
-              "label": "REGRA PRÁTICA",
-              "content": "Obra na orla ou em região industrial: adote CAA III no mínimo. Sempre."
+              "label": "REGRA PRATICA",
+              "content": "Obra na orla ou em regiao industrial: adote CAA III no minimo. A norma permite ser conservador e aqui isso e barato."
+            }
+          ]
+        },
+        {
+          "titulo": "Erros Comuns no Projeto",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Tres erros que aparecem com mais frequencia nos projetos estruturais revisados:"
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "usar c_min sem somar o Dc: cobrimento nominal abaixo do exigido pela norma",
+                "aplicar a mesma CAA para toda a edificacao: fundacao e pilares externos geralmente tem CAA maior",
+                "nao ajustar o fck minimo exigido pela CAA adotada: cobrimento correto, concreto insuficiente"
+              ]
             },
             {
               "type": "text",
-              "content": "Cobrimento errado não aparece na obra. Aparece na perícia."
+              "content": "Os tres juntos comprometem a durabilidade da estrutura mesmo que o dimensionamento esteja correto."
+            }
+          ]
+        },
+        {
+          "titulo": "O que o TQS Precisa Receber",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O TQS usa o cobrimento nominal como parametro de calculo. Inserir o valor errado significa que a verificacao de ELS de fissurizacao e o calculo de armadura estao com o cobrimento errado."
+            },
+            {
+              "type": "text",
+              "content": "O parametro entra antes do processamento. Corrigi-lo depois exige **reprocessamento completo**."
+            },
+            {
+              "type": "box",
+              "label": "TQS NA PRATICA",
+              "content": "O curso cobre a configuracao correta de cobrimento e durabilidade dentro do modelo TQS, antes do processamento. Link na bio."
             }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Cobrimento é um dos parâmetros mais ignorados no detalhe — e um dos que mais aparecem em laudos de perícia estrutural.\n\nA dúvida mais comum: qual é o cobrimento certo para o meu projeto?\n\nA resposta começa pela Classe de Agressividade Ambiental (CAA) do local da obra:\n\n→ CAA I (interior seco): 25 mm mínimo\n→ CAA II (urbano/rural): 30 mm mínimo\n→ CAA III (marinha/industrial): 40 mm mínimo\n→ CAA IV (muito agressivo): 50 mm mínimo\n\nE o cobrimento nominal é esse valor + a tolerância de execução (Δc = 10 mm em obras normais).\n\nO erro mais comum: usar o cobrimento mínimo como nominal. Não são a mesma coisa.\n\nO segundo: definir a CAA errada por não avaliar o ambiente corretamente.\n\nCorrosão de armadura não aparece em vistoria de rotina. Aparece anos depois, quando o dano já é estrutural.\n\nTQS na Prática cobre verificação de durabilidade dentro do projeto. Link na bio.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1e-9cFqJEPAJUW5-xd3ScG_GX9EdY7g2f",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=1jGGfhq_zOAbjTp-RK092DBoyG1Hjg8qt",
-      "https://drive.google.com/uc?export=download&id=1WpNF4AlLCgV4KaIdkeYLszZ803mU6zBy",
-      "https://drive.google.com/uc?export=download&id=18KP_MSY3JbzqpKMj1dMQ_AkY6OkfzV62",
-      "https://drive.google.com/uc?export=download&id=1zdW8o7NZ-ZWcmIDfahWFoAJXNKrnIblC",
-      "https://drive.google.com/uc?export=download&id=1UJzzqZpAAyvmUrONPNpGD8LASkerHfNV"
-    ]
+    "legenda": "Cobrimento e um dos parametros mais ignorados no detalhamento e um dos que mais aparecem em laudos de pericia.\n\nA formula que define o valor correto:\n\nc_nom = c_min + Dc\n\nOnde Dc = 10 mm para obras normais.\n\nO cobrimento minimo vem da Classe de Agressividade Ambiental, NBR 6118 Tabela 6.1:\n\n→ CAA I interior seco: 25 mm\n→ CAA II urbano e rural: 30 mm\n→ CAA III marinha e industrial: 40 mm\n→ CAA IV muito agressivo: 50 mm\n\nOs tres erros mais comuns:\n\n→ Usar c_min como nominal, sem somar Dc\n→ Aplicar a mesma CAA para toda a edificacao\n→ Nao ajustar o fck minimo conforme a CAA\n\nDetalhe critico para quem usa TQS: o cobrimento nominal alimenta o calculo de fissurizacao no modelo. Cobrimento errado no TQS, verificacao de ELS errada no resultado.\n\nTQS na Pratica cobre configuracao de cobrimento e durabilidade dentro do modelo. Link na bio."
   },
   {
     "id": "2026-05-16_1200",
@@ -137,11 +192,11 @@
             "highlight": false
           },
           {
-            "text": "UM ESTAGIÁRIO",
+            "text": "UM ESTAGIARIO",
             "highlight": true
           },
           {
-            "text": "no escritório de estruturas",
+            "text": "no escritorio de estruturas",
             "highlight": false
           }
         ],
@@ -154,20 +209,20 @@
           "elementos": [
             {
               "type": "text",
-              "content": "Você está **recusando projeto** por falta de tempo — não por falta de capacidade."
+              "content": "Voce esta **recusando projeto** por falta de tempo, nao por falta de capacidade."
             },
             {
               "type": "bullets",
               "items": [
-                "tarefas repetitivas tomam mais de 30% do seu dia útil",
+                "tarefas repetitivas tomam mais de 30% do seu dia util",
                 "detalhamento e ajuste de prancha consomem horas de projeto",
-                "você cresce em demanda mas não consegue escalar"
+                "voce cresce em demanda mas nao consegue escalar"
               ]
             },
             {
               "type": "box",
               "label": "REGRA",
-              "content": "Só contrate quando o custo do estagiário for menor do que o projeto que você recusou."
+              "content": "So contrate quando o custo do estagiario for menor do que o projeto que voce recusou."
             }
           ]
         },
@@ -176,20 +231,20 @@
           "elementos": [
             {
               "type": "text",
-              "content": "Estagiário não substitui engenheiro. Ele **libera o engenheiro**."
+              "content": "Estagiario nao substitui engenheiro. Ele **libera o engenheiro**."
             },
             {
               "type": "bullets",
               "items": [
-                "conferência de cotas e nomenclatura nas pranchas",
-                "lançamento de dados do relatório para planilha de controle",
-                "ajustes gráficos em DWG após revisão do engenheiro",
-                "controle de revisões e organização de arquivos do projeto"
+                "conferencia de cotas e nomenclatura nas pranchas",
+                "lancamento de dados do relatorio para planilha de controle",
+                "ajustes graficos em DWG apos revisao do engenheiro",
+                "controle de revisoes e organizacao de arquivos do projeto"
               ]
             },
             {
               "type": "text",
-              "content": "Decisão técnica, verificação e assinatura: **sempre do engenheiro responsável**."
+              "content": "Decisao tecnica, verificacao e assinatura: **sempre do engenheiro responsavel**."
             }
           ]
         },
@@ -199,15 +254,15 @@
             {
               "type": "numbered",
               "items": [
-                "defina as tarefas que serão delegadas antes de contratar",
+                "defina as tarefas que serao delegadas antes de contratar",
                 "crie roteiro de onboarding de 2 semanas com tarefas progressivas",
-                "reserve 1h por dia para orientação no início — cai depois",
-                "defina uma meta clara para o período de estágio"
+                "reserve 1h por dia para orientacao no inicio, cai depois",
+                "defina uma meta clara para o periodo de estagio"
               ]
             },
             {
               "type": "text",
-              "content": "Estagiário bem orientado vira multiplicador. Mal orientado vira retrocesso."
+              "content": "Estagiario bem orientado vira multiplicador. Mal orientado vira retrocesso."
             }
           ]
         }
@@ -219,7 +274,7 @@
     "drive_folder_id": "1GFAaPye74Gxw6xr3VJmrs6FN8C-eX7kq",
     "drive_imagens": [
       "https://drive.google.com/uc?export=download&id=10iEc1SbKqi5MiWw8__y1JUjJSTmzHmdh",
-      "https://drive.google.com/uc?export=download&id=1ZoAyYwV_hBKbhCpPlmPHCquGoejqtE4k",
+      "https://drive.google.com/uc?export=download&id=1ZoAyYwV_hBKbhCpPlmPHGVxTc2",
       "https://drive.google.com/uc?export=download&id=1GdQQDwIxY601_Y8HrVyj3MKGWHGVxTc2",
       "https://drive.google.com/uc?export=download&id=1gGdmmjVC4kK-gug5fu3-CY7nKUl1Xob7",
       "https://drive.google.com/uc?export=download&id=1hUs8wHH5YYtzY55zUuzu4eOVN-s1xAh-"

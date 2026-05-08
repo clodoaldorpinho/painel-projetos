@@ -14,7 +14,7 @@
             "highlight": false
           },
           {
-            "text": "VERIFICAÇÃO",
+            "text": "VERIFICACAO",
             "highlight": true
           },
           {
@@ -22,30 +22,74 @@
             "highlight": false
           }
         ],
-        "subtitulo": "da geometria ao detalhamento — o que revisar antes de assinar",
+        "subtitulo": "da geometria ao detalhamento, o que revisar antes de assinar",
         "prompt": "reinforced concrete column cross-section with structural engineering drawings showing rebar layout stirrups and dimensions, professional technical detail, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "Geometria e Seção",
+          "titulo": "Por que Pilar Exige Verificacao Especifica",
           "elementos": [
             {
               "type": "text",
-              "content": "Antes de aceitar o dimensionamento, a **seção precisa fazer sentido** para a carga e a altura livre."
+              "content": "O pilar e o elemento que transfere toda a carga da estrutura para a fundacao. Um erro no pilar nao fica no pilar."
             },
             {
               "type": "bullets",
               "items": [
-                "índice de esbeltez calculado: λ = l0/i — verificar se está abaixo do limite de 2ª ordem",
-                "seção mínima: 19 cm para pilar isolado (NBR 6118 item 13.2.3)",
-                "dimensão mínima: 14 cm — apenas em casos especificados pela norma",
-                "excentricidade mínima verificada nos dois eixos"
+                "carga axial com momento biaxial: combinacao que define o dimensionamento",
+                "efeitos de segunda ordem: obrigatorios para pilares com indice de esbeltez acima do limite",
+                "falha de pilar e colapso progressivo: sem redistribuicao possivel como em viga"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "PREMISSA",
+              "content": "Pilar subdimensionado nao avisa antes de falhar."
+            }
+          ]
+        },
+        {
+          "titulo": "Geometria e Secao Transversal",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Antes de aceitar o dimensionamento, a secao precisa fazer sentido para a carga e a altura livre."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "secao minima de pilar isolado: 19 cm, NBR 6118 item 13.2.3",
+                "dimensao minima de secao: 14 cm em casos justificados na norma",
+                "indice de esbeltez: lambda = l0 dividido por i, verificar contra o limite de 2a ordem",
+                "excentricidade minima verificada nos dois eixos"
               ]
             },
             {
               "type": "box",
               "label": "ALERTA",
-              "content": "Pilar esbelto sem verificação de 2ª ordem é o erro mais frequente em edificações de múltiplos pavimentos."
+              "content": "Pilar esbelto sem verificacao de 2a ordem e o erro mais frequente em edificacoes de multiplos pavimentos."
+            }
+          ]
+        },
+        {
+          "titulo": "Efeitos de Segunda Ordem",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Efeitos de segunda ordem sao obrigatorios quando o indice de esbeltez ultrapassa os limites da NBR 6118."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "calcular lambda para cada pilar nos dois eixos: lambda = l0 dividido por i",
+                "verificar o limite: para estruturas usuais, lambda acima de 35 exige verificacao de 2a ordem",
+                "metodo simplificado: gama-z ou coeficiente z, conforme o metodo de analise",
+                "metodo geral: P-delta com analise de segunda ordem global"
+              ]
+            },
+            {
+              "type": "text",
+              "content": "Pilar com lambda acima do limite verificado apenas pelo metodo de 1a ordem esta em desacordo com a NBR 6118."
             }
           ]
         },
@@ -59,15 +103,15 @@
             {
               "type": "numbered",
               "items": [
-                "taxa mínima: 0,4% da área da seção transversal",
-                "taxa máxima: 8% — reduzida para 4% em regiões de emenda",
-                "diâmetro mínimo das barras longitudinais: 10 mm",
-                "distribuição simétrica nas duas faces no mínimo"
+                "taxa minima: 0,4% da area da secao transversal",
+                "taxa maxima: 8%, reduzida para 4% em regioes de emenda",
+                "diametro minimo das barras longitudinais: 10 mm",
+                "distribuicao: simetrica nas duas faces no minimo"
               ]
             },
             {
               "type": "text",
-              "content": "Taxa abaixo do mínimo: **armadura insuficiente para retração e fluência**. Acima do máximo: problema de concretagem."
+              "content": "Taxa abaixo do minimo: armadura insuficiente para retracao e fluencia. Acima do maximo: problema de concretagem."
             }
           ]
         },
@@ -75,38 +119,47 @@
           "titulo": "Estribos e Detalhamento",
           "elementos": [
             {
+              "type": "text",
+              "content": "O detalhamento correto dos estribos e condicao para que a obra execute o que o calculo previu."
+            },
+            {
               "type": "bullets",
               "items": [
-                "espaçamento máximo entre estribos: menor valor entre 20∅ₗ, menor dimensão da seção ou 30 cm",
-                "diâmetro mínimo do estribo: ¼ do diâmetro da barra longitudinal, mínimo 5 mm",
-                "ancoragem das barras longitudinais verificada no topo e base",
-                "emendas por traspasse fora das regiões de momento máximo"
+                "espacamento maximo: menor valor entre 20 vezes o diametro longitudinal, menor dimensao da secao e 30 cm",
+                "diametro minimo do estribo: maior valor entre um quarto do diametro longitudinal e 5 mm",
+                "todas as barras de canto devem estar amarradas por estribo ou grampo",
+                "ancoragem das barras longitudinais verificada no topo e na base"
               ]
             },
             {
               "type": "box",
-              "label": "REGRA PRÁTICA",
-              "content": "Se o estribo não está amarrando todas as barras de canto, o pilar não está detalhado corretamente."
+              "label": "REGRA PRATICA",
+              "content": "Se o estribo nao amarra todas as barras de canto, o pilar nao esta detalhado corretamente."
+            }
+          ]
+        },
+        {
+          "titulo": "O Pilar como Indicador do Modelo",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "No TQS, a verificacao do pilar inclui o resultado de esforcos, o dimensionamento de armadura e o relatorio de verificacao de esbeltez. Cada um precisa ser conferido individualmente."
             },
             {
               "type": "text",
-              "content": "Detalhamento correto não é detalhe — é **condição para a obra executar o que o cálculo previu**."
+              "content": "Aceitar o resultado de pilar sem revisar o relatorio de verificacao e aceitar um dimensionamento que **voce nao validou**."
+            },
+            {
+              "type": "box",
+              "label": "TQS NA PRATICA",
+              "content": "O curso cobre verificacao completa de pilares dentro do modelo estrutural, incluindo esbeltez, 2a ordem e detalhamento. Link na bio."
             }
           ]
         }
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Pilar mal verificado é o tipo de problema que o engenheiro descobre na perícia, não na obra.\n\nUm checklist rápido antes de fechar o detalhamento:\n\nGeometria:\n→ Índice de esbeltez calculado nos dois eixos\n→ Seção mínima respeitada: 19 cm para pilar isolado\n→ Efeitos de 2ª ordem verificados quando λ > 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da seção\n→ Reduzida para 4% na região de emenda\n→ Diâmetro mínimo de 10 mm\n\nEstribos:\n→ Espaçamento: menor que 20∅ₗ, menor dimensão da seção e 30 cm\n→ Diâmetro: no mínimo ¼ do diâmetro longitudinal, mínimo 5 mm\n→ Todas as barras de canto amarradas\n\nO pilar sustenta tudo acima dele. Verificar com rigor não é excesso — é obrigação.\n\nTQS na Prática cobre verificação de pilares dentro do modelo estrutural. Link na bio.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1orAZAG7t_nmXKj-EXyz2KPOFWME572Fk",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=12aZPcm6zsHkTvZ4KcVk5soHdnR-iCiGn",
-      "https://drive.google.com/uc?export=download&id=1c-9QtDSHGx0ztjyKOdxrActXx_IHegrt",
-      "https://drive.google.com/uc?export=download&id=1MXA5sEzMewLZa16P9mQ289g2JsEJGQSO",
-      "https://drive.google.com/uc?export=download&id=1zsVFNtNO9zltgZNpy3sJrUm7hdaLShDS",
-      "https://drive.google.com/uc?export=download&id=1noK6LqTYCUCHPljPew5DrzhPeN_vM9kG"
-    ]
+    "legenda": "Pilar subdimensionado nao avisa antes de falhar.\n\nUm checklist antes de fechar o detalhamento de pilares:\n\nGeometria:\n→ Secao minima: 19 cm para pilar isolado\n→ Indice de esbeltez calculado nos dois eixos\n→ Efeitos de 2a ordem verificados quando lambda acima de 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da secao\n→ Reduzida para 4% na regiao de emenda\n→ Diametro minimo de 10 mm\n\nEstribos:\n→ Espacamento menor que 20 vezes o diametro longitudinal, dimensao menor da secao e 30 cm\n→ Diametro minimo de um quarto do longitudinal, no minimo 5 mm\n→ Todas as barras de canto amarradas\n\nNo TQS: revisar o relatorio de verificacao de pilar individualmente, incluindo esbeltez e 2a ordem.\n\nO pilar sustenta tudo acima dele. A verificacao precisa ser proporcional a essa responsabilidade.\n\nTQS na Pratica cobre verificacao de pilares dentro do modelo estrutural. Link na bio."
   },
   {
     "id": "2026-05-17_1700",

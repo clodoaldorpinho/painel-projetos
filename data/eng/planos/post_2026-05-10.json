@@ -10,92 +10,152 @@
       "capa": {
         "titulo_linhas": [
           {
-            "text": "COMPATIBILIZAÇÃO",
+            "text": "CHECKLIST DE",
+            "highlight": false
+          },
+          {
+            "text": "COMPATIBILIZACAO",
             "highlight": true
           },
           {
-            "text": "ESTRUTURAL",
-            "highlight": false
-          },
-          {
-            "text": "com arquitetura",
+            "text": "estrutural",
             "highlight": false
           }
         ],
-        "subtitulo": "o que verificar antes de lançar o modelo",
-        "prompt": "architect and structural engineer reviewing building drawings together at desk, blueprints visible, professional office Brazil, photorealistic no text"
+        "subtitulo": "o que verificar antes de fechar o projeto com arquitetura e instalacoes",
+        "prompt": "structural engineer and architect reviewing overlapping building plans on large drafting table, compatibility check, professional Brazil office, photorealistic no text"
       },
       "slides": [
         {
-          "titulo": "Antes de Abrir o TQS",
+          "titulo": "Por que Compatibilizar Antes de Detalhar",
           "elementos": [
             {
               "type": "text",
-              "content": "A compatibilização começa **antes** de lançar o primeiro pilar."
+              "content": "Compatibilizacao e a verificacao de que a estrutura calculada corresponde ao projeto que vai para a obra."
             },
             {
               "type": "bullets",
               "items": [
-                "planta arquitetônica está na versão final e aprovada",
-                "cotas, pés-direitos e níveis de cada pavimento confirmados",
-                "pontos críticos identificados: pilares à mostra, vigas em fachada"
+                "projeto estrutural desalinhado com arquitetura: retrabalho apos entrega",
+                "conflito com instalacoes: furo em viga ou pilar em local errado",
+                "versao de arquitetura desatualizada: voce calculou uma planta que mudou"
               ]
             },
             {
               "type": "box",
-              "label": "ATENÇÃO",
-              "content": "Estrutura lançada com planta provisória garante retrabalho."
+              "label": "REGRA",
+              "content": "Nunca detalhe sem confirmar que a arquitetura que voce tem e a versao final enviada ao cliente."
             }
           ]
         },
         {
-          "titulo": "Conflitos Mais Comuns",
+          "titulo": "Compatibilizacao com Arquitetura",
           "elementos": [
             {
               "type": "text",
-              "content": "Os pontos que mais geram conflito entre estrutura e arquitetura:"
+              "content": "A estrutura precisa corresponder ponto a ponto com a planta arquitetonica aprovada."
             },
             {
               "type": "numbered",
               "items": [
-                "pilares no meio de vãos previstos como livres na planta",
-                "vigas passando por cima de esquadrias sem ajuste de pé-direito",
-                "lajes com furos para instalações sem previsão de reforço de borda",
-                "escada estrutural incompatível com a geometria arquitetônica"
+                "conferir alinhamento de pilares com paredes e fachadas",
+                "verificar alturas livres de laje, pe-direito e aberturas previstas na arquitetura",
+                "checar espessura de laje compativel com rebaixo de banheiro e nivel de piso",
+                "confirmar que vigas nao passam por onde a arquitetura preve vao livre"
               ]
             }
           ]
         },
         {
-          "titulo": "Como Registrar",
+          "titulo": "Compatibilizacao com Instalacoes",
           "elementos": [
+            {
+              "type": "text",
+              "content": "Conflito entre estrutura e instalacoes e o problema que a obra encontra depois que a ART ja foi assinada."
+            },
             {
               "type": "bullets",
               "items": [
-                "liste cada conflito com referência à folha da planta arquitetônica",
-                "confirme resolução com o arquiteto antes de alterar a estrutura",
-                "guarde o e-mail de autorização — protege sua ART"
+                "prumadas de hidraulica e eletrica nao podem coincidir com pilares ou vigas",
+                "reservatorios e casa de maquinas: cargas concentradas devem estar no modelo",
+                "shafts e furos de ventilacao: abertura na laje sem prejudicar armadura",
+                "dutos de ar-condicionado: espaco entre laje e forro compativel com estrutura"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "ALERTA",
+              "content": "Furo em viga depois que o projeto esta fechado e retrabalho de compatibilizacao que deveria ter sido feito antes."
+            }
+          ]
+        },
+        {
+          "titulo": "Documentacao da Versao",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Compatibilizacao sem controle de versao e verificacao parcial."
+            },
+            {
+              "type": "bullets",
+              "items": [
+                "registrar a data e revisao da planta arquitetonica usada como referencia",
+                "guardar e-mail de confirmacao do arquiteto sobre a versao final",
+                "se a arquitetura mudar depois do calculo: emitir revisao do projeto estrutural",
+                "toda entrega deve especificar a revisao da arquitetura com que foi compatibilizada"
               ]
             },
             {
               "type": "text",
-              "content": "Compatibilização sem registro é **acordo verbal**. Não conta quando há problema."
+              "content": "Em caso de questionamento posterior, a versao documentada e a prova."
+            }
+          ]
+        },
+        {
+          "titulo": "Checklist Rapido de Saida",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "Antes de emitir: confirmar cada item desta lista."
+            },
+            {
+              "type": "numbered",
+              "items": [
+                "estrutura alinhada com a planta arquitetonica na revisao vigente",
+                "instalacoes sem conflito com elementos estruturais",
+                "cargas especiais incluidas no modelo: reservatorio, equipamentos, sobrecargas",
+                "compatibilizacao documentada no memorial e nos registros de entrega"
+              ]
+            },
+            {
+              "type": "box",
+              "label": "REGRA PRATICA",
+              "content": "Se nao foi documentado, nao foi compatibilizado."
+            }
+          ]
+        },
+        {
+          "titulo": "O que Nenhum Software Compatibiliza por Voce",
+          "elementos": [
+            {
+              "type": "text",
+              "content": "O TQS processa a estrutura que voce modelou. Nao verifica se essa estrutura corresponde ao projeto que vai para a obra."
+            },
+            {
+              "type": "text",
+              "content": "A compatibilizacao e responsabilidade do engenheiro, feita com metodo, antes da entrega."
+            },
+            {
+              "type": "box",
+              "label": "TQS NA PRATICA",
+              "content": "O curso inclui o fluxo completo de verificacao antes da emissao da ART, com checklist de compatibilizacao aplicado ao modelo. Link na bio."
             }
           ]
         }
       ],
-      "cta_type": "seguir"
+      "cta_type": "tqs"
     },
-    "legenda": "Antes de abrir o TQS, existe um trabalho que a maioria dos engenheiros pula — e paga caro por isso depois.\n\nA compatibilização estrutural com arquitetura.\n\nNão é só conferir se o pilar cabe no espaço. É garantir que a estrutura que você vai calcular seja construtível, compatível e esteja documentada.\n\nOs conflitos mais comuns que aparecem no meio do projeto:\n\n→ Pilar onde o arquiteto previu vão livre\n→ Viga passando por cima de esquadria alta\n→ Furo na laje para instalações sem reforço previsto\n→ Escada que não fecha geometricamente com a estrutura\n\nCada um desses, se descoberto durante o cálculo, custa horas de retrabalho.\n\nA solução: compatibilizar antes de modelar. E registrar cada decisão por e-mail.\n\nCompatibilização documentada protege o projeto e protege a ART.\n\nSiga @eng.clodoaldopinho para frameworks de projeto toda semana.",
-    "imagens_geradas": true,
-    "drive_folder_id": "1ubBTzRMsx9qXjA5uhHK3gxwkLG2AEXe_",
-    "drive_imagens": [
-      "https://drive.google.com/uc?export=download&id=1Yn1RuQ-kmU3VMOTCc2rPLqMT8yw6oFFO",
-      "https://drive.google.com/uc?export=download&id=1QMeLaSoP7KPPsI6Gv0x1eLytbge0v_Cm",
-      "https://drive.google.com/uc?export=download&id=1o255eKgEttraOvMPDpwt-X1W_PGUMEq-",
-      "https://drive.google.com/uc?export=download&id=1FdDcttTML-H5ix7sUm8CSZNoLTBsxxNK",
-      "https://drive.google.com/uc?export=download&id=1Kz-tDtdQgC2VB4cPhC1c96RUnW6dvYug"
-    ]
+    "legenda": "A maioria dos problemas de obra com projeto estrutural nao comeca no calculo.\n\nComeca na compatibilizacao que nao foi feita.\n\nO que verificar antes de fechar o projeto:\n\nArquitetura:\n→ Pilares alinhados com paredes e fachadas\n→ Vigas sem conflito com vaos livres previstos\n→ Laje compativel com rebaixo de banheiro e nivel de piso\n\nInstalacoes:\n→ Prumadas fora de pilares e vigas\n→ Cargas de reservatorio e equipamentos no modelo\n→ Furos de laje sem comprometimento da armadura\n\nDocumentacao:\n→ Revisao da arquitetura usada como referencia registrada\n→ Confirmacao do arquiteto por escrito\n→ Versao da estrutura compatibilizada identificada na entrega\n\nCompatibilizacao sem registro e verificacao parcial.\n\nTQS na Pratica cobre o fluxo completo de verificacao antes da emissao da ART. Link na bio."
   },
   {
     "id": "2026-05-10_1700",
