@@ -22,6 +22,12 @@ function getDriveImages(nome: string): string[] | null {
   }
 }
 
+// Converte URL do Drive em rota proxy local para evitar CORS/redirect
+function toProxyUrl(driveUrl: string): string {
+  const m = driveUrl.match(/[?&]id=([^&]+)/)
+  return m ? `/api/drive-image/${m[1]}` : driveUrl
+}
+
 export async function GET(
   _req: NextRequest,
   { params }: { params: Promise<{ nome: string }> }
@@ -33,7 +39,7 @@ export async function GET(
   if (driveUrls && driveUrls.length > 0) {
     const files = driveUrls.map((url, i) => ({
       name: `slide_${String(i + 1).padStart(2, "0")}.png`,
-      url,
+      url:  toProxyUrl(url),
     }))
     return NextResponse.json({ nome, files, source: "drive" })
   }
