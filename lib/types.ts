@@ -13,6 +13,7 @@ export interface Post {
   status: PostStatus
   post_id?: string | null
   drive_folder_id?: string | null
+  drive_imagens?: string[]
 }
 
 export interface DayPosts {

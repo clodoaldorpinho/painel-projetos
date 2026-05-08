@@ -10,7 +10,7 @@ const LOCAL_PLANOS =
 const LOCAL_IMAGENS =
   "C:\\Users\\clodo\\OneDrive\\Área de Trabalho\\ProjetoClaudeCode\\EngClodoaldoPinho\\imagens"
 
-function planDir(): string {
+export function planDir(): string {
   if (process.env.PLANOS_DIR) return process.env.PLANOS_DIR
   if (fs.existsSync(LOCAL_PLANOS)) return LOCAL_PLANOS
   return path.join(process.cwd(), "data", "eng", "planos")
