@@ -160,7 +160,19 @@
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Laje errada no TQS nao fica na laje.\n\nO erro de carregamento se propaga para as vigas, para os pilares, para a fundacao.\n\nO que verificar antes de processar:\n\nLancamento:\n→ Laje apoiada nos elementos corretos, sem no solto\n→ Tipo de laje compativel com a solucao estrutural\n→ Espessura consistente com a arquitetura\n\nCarregamento:\n→ PP calculado automaticamente, verificar no mapa de cargas\n→ RCP definido: piso, contrapiso, reboco\n→ Carga variavel conforme uso do pavimento (NBR 6120)\n\nVerificacao:\n→ Mapa de cargas sem buracos\n→ Verificar Consistencia sem erros de laje\n→ Modelo 3D visual: lajes apoiadas e sem sobreposicao\n\nReprocessamento por erro de lancamento de laje e tempo desperdicado que poderia ter sido verificacao previa.\n\nTQS na Pratica cobre lancamento e verificacao de lajes no modelo estrutural. Link na bio."
+    "legenda": "Laje errada no TQS nao fica na laje.\n\nO erro de carregamento se propaga para as vigas, para os pilares, para a fundacao.\n\nO que verificar antes de processar:\n\nLancamento:\n→ Laje apoiada nos elementos corretos, sem no solto\n→ Tipo de laje compativel com a solucao estrutural\n→ Espessura consistente com a arquitetura\n\nCarregamento:\n→ PP calculado automaticamente, verificar no mapa de cargas\n→ RCP definido: piso, contrapiso, reboco\n→ Carga variavel conforme uso do pavimento (NBR 6120)\n\nVerificacao:\n→ Mapa de cargas sem buracos\n→ Verificar Consistencia sem erros de laje\n→ Modelo 3D visual: lajes apoiadas e sem sobreposicao\n\nReprocessamento por erro de lancamento de laje e tempo desperdicado que poderia ter sido verificacao previa.\n\nTQS na Pratica cobre lancamento e verificacao de lajes no modelo estrutural. Link na bio.",
+    "imagens_geradas": true,
+    "drive_folder_id": "1ySOWRGx2-LqwfmqzipY3WmFTOYm7aHXc",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=18ePRiYR96FbJSRw0MnR7SOQrxPfzJZ6r",
+      "https://drive.google.com/uc?export=download&id=1oE1CUGD2dCc2q983yaSWUByUacrrrrmZ",
+      "https://drive.google.com/uc?export=download&id=1qtdL9hR-KBzH3VcbaeXy94LQXpRWnNza",
+      "https://drive.google.com/uc?export=download&id=1vLXpZXCqusPs5AQuJ1sjM23MknmNlw5z",
+      "https://drive.google.com/uc?export=download&id=11HUYPsmNioNI6-ySYfMJFCx9VfmWKv8f",
+      "https://drive.google.com/uc?export=download&id=1UypF3PsZwJrpoodoQ5oRVt8ZBXAo5Wqj",
+      "https://drive.google.com/uc?export=download&id=153uZz3UIQHBPq33shsjaL0PKPu86Za2a",
+      "https://drive.google.com/uc?export=download&id=1yYgaOJJcbxI2GOPGwbZVJ_murdmxAJfH"
+    ]
   },
   {
     "id": "2026-05-12_1700",

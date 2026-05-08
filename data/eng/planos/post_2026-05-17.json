@@ -159,7 +159,19 @@
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Pilar subdimensionado nao avisa antes de falhar.\n\nUm checklist antes de fechar o detalhamento de pilares:\n\nGeometria:\n→ Secao minima: 19 cm para pilar isolado\n→ Indice de esbeltez calculado nos dois eixos\n→ Efeitos de 2a ordem verificados quando lambda acima de 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da secao\n→ Reduzida para 4% na regiao de emenda\n→ Diametro minimo de 10 mm\n\nEstribos:\n→ Espacamento menor que 20 vezes o diametro longitudinal, dimensao menor da secao e 30 cm\n→ Diametro minimo de um quarto do longitudinal, no minimo 5 mm\n→ Todas as barras de canto amarradas\n\nNo TQS: revisar o relatorio de verificacao de pilar individualmente, incluindo esbeltez e 2a ordem.\n\nO pilar sustenta tudo acima dele. A verificacao precisa ser proporcional a essa responsabilidade.\n\nTQS na Pratica cobre verificacao de pilares dentro do modelo estrutural. Link na bio."
+    "legenda": "Pilar subdimensionado nao avisa antes de falhar.\n\nUm checklist antes de fechar o detalhamento de pilares:\n\nGeometria:\n→ Secao minima: 19 cm para pilar isolado\n→ Indice de esbeltez calculado nos dois eixos\n→ Efeitos de 2a ordem verificados quando lambda acima de 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da secao\n→ Reduzida para 4% na regiao de emenda\n→ Diametro minimo de 10 mm\n\nEstribos:\n→ Espacamento menor que 20 vezes o diametro longitudinal, dimensao menor da secao e 30 cm\n→ Diametro minimo de um quarto do longitudinal, no minimo 5 mm\n→ Todas as barras de canto amarradas\n\nNo TQS: revisar o relatorio de verificacao de pilar individualmente, incluindo esbeltez e 2a ordem.\n\nO pilar sustenta tudo acima dele. A verificacao precisa ser proporcional a essa responsabilidade.\n\nTQS na Pratica cobre verificacao de pilares dentro do modelo estrutural. Link na bio.",
+    "imagens_geradas": true,
+    "drive_folder_id": "1HHI-wSNljAEeZ0Vp1WN-Rq3x1PzUtx-K",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1E2_z2OQVR6qmWMa8XQUtZMhcCmL6DyEk",
+      "https://drive.google.com/uc?export=download&id=1PA_YfzVAUn5lkM9wtJqAhrBScou1wOTs",
+      "https://drive.google.com/uc?export=download&id=1OlIKzweY3cAjlf-RG1z3nrebELoc-_fK",
+      "https://drive.google.com/uc?export=download&id=1uXxOryK1119DZEOBWS5h_cVhQ2xlfB5l",
+      "https://drive.google.com/uc?export=download&id=1LIWLxgpijcd5LWsEYj_sNNmDirNUPi9k",
+      "https://drive.google.com/uc?export=download&id=1LSYZYV8xZAmR4n9OAtslPzHARLARukwE",
+      "https://drive.google.com/uc?export=download&id=1t9NcI45bCjE0Lx3SAYa0zxB6L7UJATPe",
+      "https://drive.google.com/uc?export=download&id=1NbSaVHuUyoJY6Wq3_oO-Y2XoW1ZVq47x"
+    ]
   },
   {
     "id": "2026-05-17_1700",

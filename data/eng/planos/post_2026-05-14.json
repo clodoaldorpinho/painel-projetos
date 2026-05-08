@@ -159,7 +159,19 @@
       ],
       "cta_type": "tqs"
     },
-    "legenda": "Processamento bem-sucedido nao e resultado correto. E processamento sem erros de modelo.\n\nA verificacao tecnica e o que separa os dois.\n\nO que verificar no resultado antes de assinar a ART:\n\nDeslocamentos:\n→ Flechas imediatas: limite L/250 para lajes\n→ Flechas totais com fluencia: limite L/350 com particoes\n→ Deslocamento de pilar: H/300 para estruturas com alvenaria\n\nReacoes de apoio:\n→ Soma de reacoes verticais deve fechar com a carga total\n→ Reacao negativa em pilar: erro no modelo\n\nArmadura:\n→ Taxa minima atendida em vigas e pilares\n→ Taxa maxima respeitada nas regioes de emenda\n\nEstado Limite de Servico:\n→ Fissurizacao conforme classe de agressividade\n→ ELS configurado antes do processamento\n\nA ART vincula seu nome ao projeto. A verificacao tecnica e o que justifica essa assinatura.\n\nTQS na Pratica cobre verificacao completa do resultado antes da emissao da ART. Link na bio."
+    "legenda": "Processamento bem-sucedido nao e resultado correto. E processamento sem erros de modelo.\n\nA verificacao tecnica e o que separa os dois.\n\nO que verificar no resultado antes de assinar a ART:\n\nDeslocamentos:\n→ Flechas imediatas: limite L/250 para lajes\n→ Flechas totais com fluencia: limite L/350 com particoes\n→ Deslocamento de pilar: H/300 para estruturas com alvenaria\n\nReacoes de apoio:\n→ Soma de reacoes verticais deve fechar com a carga total\n→ Reacao negativa em pilar: erro no modelo\n\nArmadura:\n→ Taxa minima atendida em vigas e pilares\n→ Taxa maxima respeitada nas regioes de emenda\n\nEstado Limite de Servico:\n→ Fissurizacao conforme classe de agressividade\n→ ELS configurado antes do processamento\n\nA ART vincula seu nome ao projeto. A verificacao tecnica e o que justifica essa assinatura.\n\nTQS na Pratica cobre verificacao completa do resultado antes da emissao da ART. Link na bio.",
+    "imagens_geradas": true,
+    "drive_folder_id": "1vKtsxEqAIQ95hmsnlbYNXG79eijO2kyA",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1I9DXi0WzCId4BSTpyhQqDwDWtutidBtg",
+      "https://drive.google.com/uc?export=download&id=18ynC8JTb58W1JzLCk3F8lFQMkprii9JX",
+      "https://drive.google.com/uc?export=download&id=1f72TmC3G-hykmh9Gy8qdQy_FbtX7B2z2",
+      "https://drive.google.com/uc?export=download&id=1yPNRGsTmT_WyLffJZHS5ir8xv5dchMQg",
+      "https://drive.google.com/uc?export=download&id=1atc2X-A7kRfxuG6JP5XUb3P8uEsyy_m4",
+      "https://drive.google.com/uc?export=download&id=10JBwXAGIvvF_AvKopise1e1hWocQTM90",
+      "https://drive.google.com/uc?export=download&id=1Mnv-G9KB61TCWkshvNZIorBjUdUmNWb_",
+      "https://drive.google.com/uc?export=download&id=1i-N0bqAXQOLOBJpWW2vcIuAkquPh65_E"
+    ]
   },
   {
     "id": "2026-05-14_1700",

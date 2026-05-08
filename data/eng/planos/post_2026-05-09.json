@@ -153,7 +153,19 @@
       ],
       "cta_type": "tqs"
     },
-    "legenda": "O TQS avisa quando algo esta errado no modelo. Mas nem tudo que esta errado gera aviso.\n\nOs erros mais comuns antes do processamento:\n\n→ No solto: elemento presente no modelo, desconectado da estrutura\n→ Secao nao definida: peso proprio zero\n→ Carga de laje nao transmitida: carga some do modelo\n→ Vinculacao errada: deslocamento irreal\n\nO Verificar Consistencia lista tudo antes do processamento. Use antes de rodar, nao depois.\n\nComo usar com metodo:\n→ Abrir o relatorio completo\n→ Localizar cada elemento com problema no modelo 3D\n→ Corrigir na definicao do elemento\n→ Reprocessar ate o relatorio estar limpo\n\nO problema real nao e o erro que aparece no relatorio. E o erro que o TQS aceita e o engenheiro nao percebe.\n\nTQS na Pratica cobre verificacao completa de modelo antes da entrega. Link na bio."
+    "legenda": "O TQS avisa quando algo esta errado no modelo. Mas nem tudo que esta errado gera aviso.\n\nOs erros mais comuns antes do processamento:\n\n→ No solto: elemento presente no modelo, desconectado da estrutura\n→ Secao nao definida: peso proprio zero\n→ Carga de laje nao transmitida: carga some do modelo\n→ Vinculacao errada: deslocamento irreal\n\nO Verificar Consistencia lista tudo antes do processamento. Use antes de rodar, nao depois.\n\nComo usar com metodo:\n→ Abrir o relatorio completo\n→ Localizar cada elemento com problema no modelo 3D\n→ Corrigir na definicao do elemento\n→ Reprocessar ate o relatorio estar limpo\n\nO problema real nao e o erro que aparece no relatorio. E o erro que o TQS aceita e o engenheiro nao percebe.\n\nTQS na Pratica cobre verificacao completa de modelo antes da entrega. Link na bio.",
+    "imagens_geradas": true,
+    "drive_folder_id": "1Yb3aQhhzN50WoE7PIlo5zKs0kcuVP_Yt",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1qZqgJMQsEemgJuIL6zWat94IeHjpx1tO",
+      "https://drive.google.com/uc?export=download&id=1Qw3tnDAHCAQYpsbjxAcreXsGTtmDI1ZT",
+      "https://drive.google.com/uc?export=download&id=1V8ohsuQcy9VXOh1X-8IDhdhmGMiWZ3Rx",
+      "https://drive.google.com/uc?export=download&id=16RA5E5dIgQOhXCCtLeGqXnsp4IL5XFqm",
+      "https://drive.google.com/uc?export=download&id=1_76iFxOjpDX6kmvZ1siZb6l9eBBuUSey",
+      "https://drive.google.com/uc?export=download&id=1louIPLjWMgyWNLewAnjszNOf15vRu5t3",
+      "https://drive.google.com/uc?export=download&id=1ZtFUSR3sbeKxQjFGMF8ZS17HGOqCF2oe",
+      "https://drive.google.com/uc?export=download&id=15jdg1RO5Qu8ZjCoqtJig-sNcv348MJni"
+    ]
   },
   {
     "id": "2026-05-09_1200",
@@ -328,6 +340,18 @@
       ],
       "cta_type": "seguir"
     },
-    "legenda": "Cliente recorrente nao e consequencia de sorte ou de preco baixo.\n\nE consequencia de processo.\n\nO engenheiro que tem carteira de clientes recorrentes fez escolhas diferentes desde o primeiro projeto:\n\n→ Escolheu o perfil certo de cliente, nao o que pagou mais uma vez\n→ Entregou alem do que foi pedido, nao o minimo\n→ Ficou presente depois da entrega, nao so durante\n→ Perguntou sobre o proximo projeto antes de o cliente pensar nisso\n\nA diferenca entre engenheiro com agenda cheia e engenheiro buscando projeto novo nao e tecnica.\n\nE comercial, no sentido mais direto da palavra.\n\n3 clientes recorrentes fixos mudam a matematica da carreira autonoma. Com 5, a liberdade de recusar projeto ruim e real.\n\nSiga @eng.clodoaldopinho para conteudo de carreira toda semana."
+    "legenda": "Cliente recorrente nao e consequencia de sorte ou de preco baixo.\n\nE consequencia de processo.\n\nO engenheiro que tem carteira de clientes recorrentes fez escolhas diferentes desde o primeiro projeto:\n\n→ Escolheu o perfil certo de cliente, nao o que pagou mais uma vez\n→ Entregou alem do que foi pedido, nao o minimo\n→ Ficou presente depois da entrega, nao so durante\n→ Perguntou sobre o proximo projeto antes de o cliente pensar nisso\n\nA diferenca entre engenheiro com agenda cheia e engenheiro buscando projeto novo nao e tecnica.\n\nE comercial, no sentido mais direto da palavra.\n\n3 clientes recorrentes fixos mudam a matematica da carreira autonoma. Com 5, a liberdade de recusar projeto ruim e real.\n\nSiga @eng.clodoaldopinho para conteudo de carreira toda semana.",
+    "imagens_geradas": true,
+    "drive_folder_id": "1672kBlsOSAPen4PaHkzS5g29n4rvuLX7",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1GLr5IPyCTqsdtnk2btQDFelgQwiUVJ-w",
+      "https://drive.google.com/uc?export=download&id=1GZ_31dFmdTRptDg01nXY0URWlrTrrE2k",
+      "https://drive.google.com/uc?export=download&id=1_V0MtXFQuAuL0Iigw9ydbm76KaM42u2q",
+      "https://drive.google.com/uc?export=download&id=19btGdccuuxfgaOj-vcgRDSlsDEdG-kDq",
+      "https://drive.google.com/uc?export=download&id=1It96m85MCvrmwK4zP9R2HUuFvmntehbM",
+      "https://drive.google.com/uc?export=download&id=1IE4FUGGhXJQ2_-KIhY8JMVs93QqFzupo",
+      "https://drive.google.com/uc?export=download&id=1EwnwB9R4uTZu_M9daeERZGBipqD38Rxv",
+      "https://drive.google.com/uc?export=download&id=1zlUMb2XKXLxPs3B_bG3Qq2zUnSgBVHN3"
+    ]
   }
 ]
