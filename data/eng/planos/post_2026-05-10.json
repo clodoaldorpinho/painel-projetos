@@ -87,7 +87,15 @@
       "cta_type": "seguir"
     },
     "legenda": "Antes de abrir o TQS, existe um trabalho que a maioria dos engenheiros pula — e paga caro por isso depois.\n\nA compatibilização estrutural com arquitetura.\n\nNão é só conferir se o pilar cabe no espaço. É garantir que a estrutura que você vai calcular seja construtível, compatível e esteja documentada.\n\nOs conflitos mais comuns que aparecem no meio do projeto:\n\n→ Pilar onde o arquiteto previu vão livre\n→ Viga passando por cima de esquadria alta\n→ Furo na laje para instalações sem reforço previsto\n→ Escada que não fecha geometricamente com a estrutura\n\nCada um desses, se descoberto durante o cálculo, custa horas de retrabalho.\n\nA solução: compatibilizar antes de modelar. E registrar cada decisão por e-mail.\n\nCompatibilização documentada protege o projeto e protege a ART.\n\nSiga @eng.clodoaldopinho para frameworks de projeto toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1ubBTzRMsx9qXjA5uhHK3gxwkLG2AEXe_",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1Yn1RuQ-kmU3VMOTCc2rPLqMT8yw6oFFO",
+      "https://drive.google.com/uc?export=download&id=1QMeLaSoP7KPPsI6Gv0x1eLytbge0v_Cm",
+      "https://drive.google.com/uc?export=download&id=1o255eKgEttraOvMPDpwt-X1W_PGUMEq-",
+      "https://drive.google.com/uc?export=download&id=1FdDcttTML-H5ix7sUm8CSZNoLTBsxxNK",
+      "https://drive.google.com/uc?export=download&id=1Kz-tDtdQgC2VB4cPhC1c96RUnW6dvYug"
+    ]
   },
   {
     "id": "2026-05-10_1700",
@@ -119,6 +127,14 @@
       "cta_type": "tqs"
     },
     "legenda": "Essa é a objeção mais comum de quem considera o TQS na Prática.\n\n\"Já uso o TQS há anos. Por que precisaria de um curso?\"\n\nPorque usar e dominar são coisas diferentes.\n\nA maioria dos engenheiros aprendeu o TQS por tentativa e erro — ou observando alguém que também aprendeu assim. O resultado é um uso parcial do software, sem metodologia, sem verificação sistemática.\n\nO problema não aparece quando o processamento funciona. Aparece quando o projeto vai para a obra e algo não estava certo no modelo.\n\nO TQS na Prática foi criado para engenheiros que já usam o software. O objetivo não é ensinar a apertar botão — é dar o método completo: do lançamento à verificação final, com critério técnico em cada etapa.\n\nQuem já usa o TQS termina o curso aplicando o dobro do que usava antes.\n\nLink na bio para conhecer o TQS na Prática.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "18qC4Bjw7IkP9OV8E7vkkCXjBsP2PtrKS",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1_4YkH8TMfGtengPIfe8-hD5qqw1WHGJn",
+      "https://drive.google.com/uc?export=download&id=19dfd_Ay_VL_aj6ZTCAw4pexKnYEkL3RF",
+      "https://drive.google.com/uc?export=download&id=1mLB2AvBUxQM8Hu3mgQ9cS8v2e2tkYaoY",
+      "https://drive.google.com/uc?export=download&id=1wr7mQhcnJf6HkMuuHGUVWw65d8F68Y8_",
+      "https://drive.google.com/uc?export=download&id=1PDDdevi3tzEwptsX1Z-obfUK4qajVmGC"
+    ]
   }
 ]

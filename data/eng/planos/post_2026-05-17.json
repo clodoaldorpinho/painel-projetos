@@ -98,7 +98,15 @@
       "cta_type": "tqs"
     },
     "legenda": "Pilar mal verificado é o tipo de problema que o engenheiro descobre na perícia, não na obra.\n\nUm checklist rápido antes de fechar o detalhamento:\n\nGeometria:\n→ Índice de esbeltez calculado nos dois eixos\n→ Seção mínima respeitada: 19 cm para pilar isolado\n→ Efeitos de 2ª ordem verificados quando λ > 35\n\nArmadura longitudinal:\n→ Taxa entre 0,4% e 8% da seção\n→ Reduzida para 4% na região de emenda\n→ Diâmetro mínimo de 10 mm\n\nEstribos:\n→ Espaçamento: menor que 20∅ₗ, menor dimensão da seção e 30 cm\n→ Diâmetro: no mínimo ¼ do diâmetro longitudinal, mínimo 5 mm\n→ Todas as barras de canto amarradas\n\nO pilar sustenta tudo acima dele. Verificar com rigor não é excesso — é obrigação.\n\nTQS na Prática cobre verificação de pilares dentro do modelo estrutural. Link na bio.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1orAZAG7t_nmXKj-EXyz2KPOFWME572Fk",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=12aZPcm6zsHkTvZ4KcVk5soHdnR-iCiGn",
+      "https://drive.google.com/uc?export=download&id=1c-9QtDSHGx0ztjyKOdxrActXx_IHegrt",
+      "https://drive.google.com/uc?export=download&id=1MXA5sEzMewLZa16P9mQ289g2JsEJGQSO",
+      "https://drive.google.com/uc?export=download&id=1zsVFNtNO9zltgZNpy3sJrUm7hdaLShDS",
+      "https://drive.google.com/uc?export=download&id=1noK6LqTYCUCHPljPew5DrzhPeN_vM9kG"
+    ]
   },
   {
     "id": "2026-05-17_1700",
@@ -130,6 +138,14 @@
       "cta_type": "tqs"
     },
     "legenda": "Essa objeção é real — e merece uma resposta honesta.\n\n\"O TQS na Prática é caro para minha realidade agora.\"\n\nPrimeiro: o curso custa menos do que um projeto estrutural de residência simples.\n\nUm único projeto entregue com mais segurança e em menos tempo já cobre o investimento. Com sobra.\n\nSegundo: se a realidade atual não permite o investimento, o problema não é o curso.\n\nO problema é não ter volume de projetos suficiente para que o retorno seja imediato.\n\nE isso é exatamente o que o método resolve:\n\n→ Processa mais rápido — mais projetos no mesmo tempo\n→ Erra menos — menos retrabalho, menos prejuízo\n→ Assina com mais segurança — cobra mais por isso\n\nO engenheiro que domina o método trabalha menos horas no mesmo projeto e entrega mais valor ao cliente.\n\nO custo do curso é pontual. O custo de continuar sem método se repete em cada projeto.\n\nAcesse o link na bio para conhecer o TQS na Prática.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1x264gKReLwcaGYzqvxeeEGyR7SMMUhsQ",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1TuBRdUd7Tv0hCGiWBx94s2gxLsOYS8hz",
+      "https://drive.google.com/uc?export=download&id=1g1DlBSFV-sOC3IsH0baOtiYFEA48ggGa",
+      "https://drive.google.com/uc?export=download&id=1FfE7TpCxvTB_Zf4gPtcrSuy_FhnryRyq",
+      "https://drive.google.com/uc?export=download&id=11I-8TwmTRrDYzUV5SAv_sfAGt8HZgg48",
+      "https://drive.google.com/uc?export=download&id=1n84hx9lLArh37MN4_O1URrB6q3q3xAuH"
+    ]
   }
 ]

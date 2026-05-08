@@ -92,7 +92,15 @@
       "cta_type": "tqs"
     },
     "legenda": "Laje é o elemento que mais gera reprocessamento desnecessário no TQS.\n\nNão porque é complexo. Porque a sequência de lançamento é ignorada.\n\nA laje é sempre o último elemento a ser lançado em cada pavimento — depois de todos os pilares e vigas estarem no lugar.\n\nE antes de processar, três perguntas:\n\n→ Todas as lajes têm apoio em todos os lados?\n→ A carga variável corresponde ao uso real do pavimento?\n→ Lajes isoladas — varanda, marquise — têm vinculação própria?\n\nUma laje sem apoio em um lado retorna deslocamento infinito. O modelo não processa e você precisa sair procurando onde está o problema.\n\nUm uso incorreto — sala tratada como depósito — gera sobrecarga errada e compromete o dimensionamento inteiro.\n\nO framework desse post evita os dois.\n\nSalva e usa no próximo projeto. TQS na Prática aprofunda cada uma dessas etapas. Link na bio.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1ech-meXPzlHSf7AktG2U4GvZpLKIZc6_",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1dqhvJUh0nzMdSxqMYRDVaY4yfhhaFDGz",
+      "https://drive.google.com/uc?export=download&id=1iYG4dlXGc2K-8UfaHohtHvuW7fl_Vu2j",
+      "https://drive.google.com/uc?export=download&id=1GGC9mNUBwqN88AlPTf-opYD8eQClqhsW",
+      "https://drive.google.com/uc?export=download&id=1dgF4wMSm6w1BnRfADSiDSYBnFBzopAkT",
+      "https://drive.google.com/uc?export=download&id=1-VCkjlCuse-e-4Xgra48OVOLWZUvrv8k"
+    ]
   },
   {
     "id": "2026-05-12_1700",
@@ -187,6 +195,14 @@
       "cta_type": "seguir"
     },
     "legenda": "Essa pergunta circula em todo grupo de engenharia estrutural — e raramente tem resposta direta.\n\nQuanto ganha um calculista autônomo?\n\nDepende. Mas existem referências reais.\n\nUm calculista iniciante cobrando R$ 4.000 por projeto residencial simples, fechando 2 projetos por mês, fatura R$ 8.000.\n\nUm calculista sênior especializado em edifícios de médio porte, cobrando R$ 20.000 por projeto, com 1 projeto por mês, fatura R$ 20.000.\n\nA diferença não é só técnica — é de posicionamento e especialização.\n\nAlgumas variáveis que definem o valor:\n\n→ Complexidade e tipologia do projeto\n→ Prazo exigido (urgência tem custo)\n→ Escopo: só cálculo ou inclui detalhamento e memorial?\n→ Região: capitais praticam valores mais altos\n\nO teto do calculista autônomo não é fixo. Você define.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1z10dmo6l-CPsFtPS6sUT-LhLqoCClnHh",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1ZO55RSJCoH4tjeIt9ugLMhJ6ZYRHlmUy",
+      "https://drive.google.com/uc?export=download&id=1yk2SRpI52GuHF3tDFexBwYofSoDZLU5l",
+      "https://drive.google.com/uc?export=download&id=1NaRiHT82t_0SUjyyujw52jNcPdoYHwK6",
+      "https://drive.google.com/uc?export=download&id=1mQcDF6tez6jOuhkbQOZUxW-P8J5RPNnY",
+      "https://drive.google.com/uc?export=download&id=1GG7ivb4Nl9vF311VDAUKdQfRV6Kuk3lL"
+    ]
   }
 ]

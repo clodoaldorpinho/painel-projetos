@@ -89,7 +89,15 @@
       "cta_type": "tqs"
     },
     "legenda": "Essa dúvida aparece toda semana nos grupos de engenharia estrutural.\n\nO modelo não processa. A tela trava. O TQS retorna mensagem de erro e você não sabe por onde começar a procurar.\n\nA causa, na maioria dos casos, é mais simples do que parece:\n\n→ Um nó solto que parece conectado mas não está\n→ Uma viga que visualmente encosta no pilar mas não foi lançada no nó\n→ Um apoio de fundação que ficou faltando\n\nO verificador de consistência do TQS é o primeiro passo — antes de qualquer outra coisa. Ele mapeia os elementos com problema e já indica onde olhar.\n\nDebugar modelo no TQS sem usar o verificador é como procurar vazamento sem fechar o registro.\n\nSalva esse post para a próxima vez que o processamento travar.\n\nTQS na Prática ensina a metodologia completa de modelagem. Acesse o link na bio.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1fL_6HVYihB6ivcTCb3en7twmgv4KjOYh",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1Ov2-1SSS_NYON29-6vNQbq-aLVBjkMNH",
+      "https://drive.google.com/uc?export=download&id=1JTDcA4ezLU72aBJI97fTvOqlq_OX_qi6",
+      "https://drive.google.com/uc?export=download&id=13emmuYtgIQlWU2F7iFQsEYGhBaFFLBJ2",
+      "https://drive.google.com/uc?export=download&id=1ZYEZQXu-9ClECx_bcV5Gygk0fEoib31O",
+      "https://drive.google.com/uc?export=download&id=13IAhsLTcHIMjummOOF-vGX6kQTwem5Ky"
+    ]
   },
   {
     "id": "2026-05-09_1200",
@@ -102,7 +110,11 @@
       "prompt_conteudo": "The page shows a schema titled \"ANTES DE ASSINAR A ART\" with subtitle \"(checklist de revisão do projeto estrutural)\".\n\nContent organized into 3 numbered sections:\n\nSection ① DOCUMENTAÇÃO TÉCNICA (bold caps, circled number) [draw small document/paper stack icon in right margin]\n→ Memorial de cálculo finalizado e arquivado\n→ Plantas de forma com cotas e nomenclatura completas\n→ Detalhamentos de armação conferidos com o memorial\n→ fck, aço e cobrimento especificados nas folhas\n\nSection ② VERIFICAÇÃO DO MODELO (bold caps, circled number) [draw small computer screen with checkmark icon in right margin]\n→ Deslocamentos dentro dos limites NBR 6118\n→ Reações de apoio plausíveis para as cargas\n→ Armadura mínima atendida em todos os elementos\n✗ Algo ainda \"para ajustar depois\"? NÃO EMITA. [draw red circle around \"NÃO EMITA\"]\n\nSection ③ COMPATIBILIZAÇÃO FINAL (bold caps, circled number) [draw small ruler+blueprint icon in right margin]\n→ Estrutura bate com arquitetura enviada ao cliente\n→ Instalações não conflitam com elementos estruturais\n→ Cliente confirmou recebimento da versão final\n→ Cópia arquivada de tudo que foi entregue\n\nINSIGHT BOX (dashed border rectangle near bottom):\n[warning triangle icon] \"ART é responsabilidade vitalícia.\nRevise antes — nunca depois.\"\n\nSmall curved-arrow annotation below the box: \"guarda junto com o arquivo do projeto\"\n\n\"@eng.clodoaldopinho\" in small neat handwriting, centered, clearly above the bottom boundary."
     },
     "legenda": "A ART vincula seu nome ao projeto por toda a vida útil da edificação.\n\nNão tem prazo de validade. Não tem carência. Se a estrutura falhar daqui a 30 anos, a ART que você assinou hoje ainda é evidência.\n\nPor isso, antes de emitir, esse checklist precisa estar completo:\n\n→ Memorial de cálculo finalizado — não \"quase\"\n→ Detalhamentos conferidos com o memorial\n→ Compatibilização com a arquitetura feita e registrada\n→ Cliente com a versão final confirmada por escrito\n\nO erro mais comum: assinar a ART com algo \"para ajustar depois\".\n\nDepois não existe no projeto estrutural. Existe o que foi entregue e o que não foi.\n\nSalva esse checklist e usa antes de emitir qualquer ART de projeto.\n\nSiga @eng.clodoaldopinho para conteúdo técnico toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1PnUw3Uss8BsJ2exT098leV1qrnUPbE72",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1B7al9nleqvy3YseJ6WWo5SxjrL72lgFt"
+    ]
   },
   {
     "id": "2026-05-09_1700",
@@ -192,6 +204,14 @@
       "cta_type": "seguir"
     },
     "legenda": "Calculista autônomo sem carteira de clientes é freelancer de oportunidade.\n\nCalculista com carteira estruturada tem renda previsível.\n\nA diferença está no método de aquisição.\n\nEscritórios de arquitetura são o cliente ideal: têm demanda constante, valorizam parceria de longo prazo e indicam para outros arquitetos quando o trabalho é bom.\n\nComo começar:\n\n→ Identifique 10 escritórios de arquitetura na sua cidade\n→ Entre em contato com portfólio objetivo — 3 projetos, tipologias e prazos reais\n→ Faça o primeiro projeto por preço competitivo — mas nunca de graça\n→ Entregue antes do prazo. Peça referência por escrito.\n\nA carteira de clientes não vem de uma vez. Vem de cada projeto bem entregue.\n\nQuem espera indicação passiva demora anos. Quem busca ativamente constrói a carteira em meses.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira e técnico toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1UDO_SN3Lugf8T_lSgl74N8rJjrDAgQ9X",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=11AAwiXbh057vCsMWX1cJvXa8vx62V4eA",
+      "https://drive.google.com/uc?export=download&id=1Jjj9IwsBbLH-EjJxnWf6KdecH8wTmhON",
+      "https://drive.google.com/uc?export=download&id=1WL-t99AskLf0tB-0TeXIdriLudqM-N87",
+      "https://drive.google.com/uc?export=download&id=1P8EeupA5zYLPAtazJhqMwOmCYdacgRPh",
+      "https://drive.google.com/uc?export=download&id=1iJ0ivf4Zodp_aoRiIBs9mwYpBGXX2lEY"
+    ]
   }
 ]

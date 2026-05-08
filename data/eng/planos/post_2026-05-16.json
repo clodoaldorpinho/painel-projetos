@@ -95,7 +95,15 @@
       "cta_type": "tqs"
     },
     "legenda": "Cobrimento é um dos parâmetros mais ignorados no detalhe — e um dos que mais aparecem em laudos de perícia estrutural.\n\nA dúvida mais comum: qual é o cobrimento certo para o meu projeto?\n\nA resposta começa pela Classe de Agressividade Ambiental (CAA) do local da obra:\n\n→ CAA I (interior seco): 25 mm mínimo\n→ CAA II (urbano/rural): 30 mm mínimo\n→ CAA III (marinha/industrial): 40 mm mínimo\n→ CAA IV (muito agressivo): 50 mm mínimo\n\nE o cobrimento nominal é esse valor + a tolerância de execução (Δc = 10 mm em obras normais).\n\nO erro mais comum: usar o cobrimento mínimo como nominal. Não são a mesma coisa.\n\nO segundo: definir a CAA errada por não avaliar o ambiente corretamente.\n\nCorrosão de armadura não aparece em vistoria de rotina. Aparece anos depois, quando o dano já é estrutural.\n\nTQS na Prática cobre verificação de durabilidade dentro do projeto. Link na bio.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1e-9cFqJEPAJUW5-xd3ScG_GX9EdY7g2f",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1jGGfhq_zOAbjTp-RK092DBoyG1Hjg8qt",
+      "https://drive.google.com/uc?export=download&id=1WpNF4AlLCgV4KaIdkeYLszZ803mU6zBy",
+      "https://drive.google.com/uc?export=download&id=18KP_MSY3JbzqpKMj1dMQ_AkY6OkfzV62",
+      "https://drive.google.com/uc?export=download&id=1zdW8o7NZ-ZWcmIDfahWFoAJXNKrnIblC",
+      "https://drive.google.com/uc?export=download&id=1UJzzqZpAAyvmUrONPNpGD8LASkerHfNV"
+    ]
   },
   {
     "id": "2026-05-16_1200",
@@ -108,7 +116,11 @@
       "prompt_conteudo": "The page shows a schema titled \"ENTREGA DO PROJETO ESTRUTURAL\" with subtitle \"(o que deve ir junto com o arquivo)\".\n\nContent organized into 3 numbered sections:\n\nSection ① ARQUIVOS DO PROJETO (bold caps, circled number) [draw small folder icon in right margin]\n→ Plantas de forma: PDF + DWG\n→ Detalhamentos de armação: PDF + DWG\n→ Memorial de cálculo: PDF assinado\n→ Relatório de processamento (quando solicitado)\n\nSection ② DOCUMENTAÇÃO LEGAL (bold caps, circled number) [draw small official stamp/seal icon in right margin]\n→ ART emitida e quitada\n✗ Nunca entregar sem ART — mesmo que o cliente peça  [draw red circle around \"sem ART\"]\n→ Guardar comprovante de pagamento da ART\n\nSection ③ COMUNICAÇÃO ESCRITA (bold caps, circled number) [draw small email/envelope icon in right margin]\n→ e-mail com lista de todos os arquivos entregues\n→ versão do projeto identificada (ex: Rev. A — 16/05/2026)\n→ solicitar confirmação de recebimento por escrito\n→ guardar esse e-mail junto com os arquivos do projeto\n\nINSIGHT BOX (dashed border rectangle):\n[lightbulb icon] \"O que não está no e-mail, não foi entregue.\nDocumente tudo.\"\n\nSmall curved-arrow annotation: \"confirmação por escrito = sua proteção\"\n\n\"@eng.clodoaldopinho\" in small neat handwriting, centered, clearly above the bottom boundary."
     },
     "legenda": "Terminar o projeto estrutural é uma etapa. Entregar corretamente é outra.\n\nE a segunda é tão importante quanto a primeira — especialmente quando há problema depois.\n\nO que precisa ir junto com o arquivo:\n\n→ Plantas de forma e detalhamentos em PDF e DWG\n→ Memorial de cálculo em PDF assinado\n→ ART emitida e quitada — sem isso, a entrega não existe\n→ E-mail listando todos os arquivos entregues\n→ Versão identificada: Rev. A, B, com data\n→ Confirmação de recebimento do cliente\n\nO detalhe que mais protege o engenheiro: o e-mail de entrega com lista de arquivos.\n\nSe houver questionamento futuro sobre o que foi entregue e quando, esse e-mail é a prova.\n\nO que não está documentado, não foi entregue. Mesmo que você lembre de ter enviado.\n\nSalva esse checklist e usa em todas as suas próximas entregas.\n\nSiga @eng.clodoaldopinho para frameworks de projeto toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1zDalcHoVmx0gIScgsdmCqbpEAn_iWyNN",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=1x8XibcUiMq-sKTQO1Eqwj21TydSlRibs"
+    ]
   },
   {
     "id": "2026-05-16_1700",
@@ -203,6 +215,14 @@
       "cta_type": "seguir"
     },
     "legenda": "A maioria dos engenheiros estruturais autônomos demoram mais do que deveriam para contratar o primeiro estagiário.\n\nO motivo: \"não tenho tempo para ensinar\".\n\nMas o paradoxo é esse: você não tem tempo porque está fazendo tudo sozinho. E continua sem tempo porque não contratou ninguém para ajudar.\n\nO sinal de que chegou a hora:\n\n→ Você recusou projeto por falta de tempo\n→ Mais de 30% do seu dia vai para tarefas que não exigem decisão técnica\n→ Está crescendo em demanda mas não em resultado\n\nO que delegar para um estagiário:\n\n→ Conferência de pranchas, ajustes em DWG, controle de revisões\n→ Tarefas repetitivas que consomem horas sem agregar valor técnico\n\nDecisão, verificação e assinatura ficam com você. Sempre.\n\nEstagiário bem orientado multiplica sua capacidade sem dividir sua responsabilidade.\n\nSiga @eng.clodoaldopinho para conteúdo de carreira toda semana.",
-    "imagens_geradas": true
+    "imagens_geradas": true,
+    "drive_folder_id": "1GFAaPye74Gxw6xr3VJmrs6FN8C-eX7kq",
+    "drive_imagens": [
+      "https://drive.google.com/uc?export=download&id=10iEc1SbKqi5MiWw8__y1JUjJSTmzHmdh",
+      "https://drive.google.com/uc?export=download&id=1ZoAyYwV_hBKbhCpPlmPHCquGoejqtE4k",
+      "https://drive.google.com/uc?export=download&id=1GdQQDwIxY601_Y8HrVyj3MKGWHGVxTc2",
+      "https://drive.google.com/uc?export=download&id=1gGdmmjVC4kK-gug5fu3-CY7nKUl1Xob7",
+      "https://drive.google.com/uc?export=download&id=1hUs8wHH5YYtzY55zUuzu4eOVN-s1xAh-"
+    ]
   }
 ]
